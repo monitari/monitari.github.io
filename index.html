@@ -165,19 +165,6 @@
                     </div>
                 </div>
             </section>
-
-            <section id="contributions" class="neu-section">
-                <h2>Contribution Activity</h2>
-                <div class="contribution-wrapper">
-                    <div class="contribution-graph" id="contribution-graph">
-                        <!-- Contribution graph will be populated by JavaScript -->
-                    </div>
-                    <div class="contribution-stats">
-                        <div id="contribution-calendar"></div>
-                        <div id="contribution-streak"></div>
-                    </div>
-                </div>
-            </section>
         </main>
 
         <!-- Right Sidebar -->
@@ -197,12 +184,6 @@
                 <h3>Top Languages</h3>
                 <canvas id="language-chart"></canvas>
             </div>
-            <div class="neu-section achievements">
-                <h3>Achievements</h3>
-                <div id="achievements-list">
-                    <!-- Will be populated by JavaScript -->
-                </div>
-            </div>
         </aside>
     </div>
 
@@ -210,6 +191,9 @@
         <p>&copy; 2025 Monitari. Built with <i class="fas fa-heart"></i></p>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script type="module" src="scripts/themes.js"></script>
+    <script type="module" src="scripts/github.js"></script>
+    <script type="module" src="scripts/display.js"></script>
+    <script type="module" src="scripts/init.js"></script>
 </body>
 </html>
