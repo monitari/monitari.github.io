@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitari Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        /* 로딩 애니메이션 스타일 */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+        }
+
+        .loading-spinner {
+            border: 8px solid var(--shadow-color);
+            border-top: 8px solid var(--accent-color);
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-overlay" id="loading-overlay">
+        <div class="loading-spinner"></div>
+    </div>
+    <div class="layout-container" style="display: none;">
+        <!-- Left Sidebar -->
+        <aside class="sidebar left-sidebar">
+            <div class="neu-section quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#profile"><i class="fas fa-user"></i> Profile</a></li>
+                    <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+                    <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+                    <li><a href="#contributions"><i class="fas fa-chart-line"></i> Activity</a></li>
+                </ul>
+            </div>
+            <div class="neu-section recent-activity">
+                <h3>Recent Activity</h3>
+                <div id="activity-feed">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="neu-header">
+                <div class="profile-header">
+                    <img src="https://github.com/monitari.png" alt="Monitari Profile Image" class="profile-image">
+                    <div class="profile-info">
+                        <h1 id="profile-name">Monitari</h1>
+                        <p id="profile-bio" class="subtitle"></p>
+                        <div class="profile-details">
+                            <span id="profile-company"><i class="fas fa-building"></i> </span>
+                            <span id="profile-location"><i class="fas fa-map-marker-alt"></i> </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="theme-switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <label for="theme-toggle" class="switch"></label>
+                </div>
+            </header>
+
+            <section id="profile" class="neu-section stats-overview">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <i class="fas fa-code-branch"></i>
+                        <span id="repo-count">0</span>
+                        <p>Repositories</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-star"></i>
+                        <span id="stars-count">0</span>
+                        <p>Stars</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-code"></i>
+                        <span id="commits-count">0</span>
+                        <p>Commits</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-users"></i>
+                        <span id="followers-count">0</span>
+                        <p>Followers</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="neu-section">
+                <div class="section-header">
+                    <h2>Featured Projects</h2>
+                    <div class="project-filters">
+                        <button class="neu-button" id="filter-toggle">
+                            <i class="fas fa-filter"></i> Filters
+                        </button>
+                        <div class="filter-dropdown" id="filter-dropdown" style="display: none;">
+                            <button class="neu-button active" data-filter="all">All</button>
+                            <!-- 필터 버튼이 JavaScript로 동적으로 추가됩니다 -->
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-grid" id="projects-container">
+                    <!-- Projects will be populated by JavaScript -->
+                </div>
+                <button class="neu-button load-more" id="load-more-projects">더보기</button>
+            </section>
+
+            <section id="skills" class="neu-section">
+                <h2>Skills & Technologies</h2>
+                <div class="skills-container">
+                    <div class="skills-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <i class="fab fa-python"></i>
+                                <h4>Python</h4>
+                                <div class="skill-level" data-level="90"></div>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fab fa-java"></i>
+                                <h4>Java</h4>
+                                <div class="skill-level" data-level="85"></div>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fas fa-code"></i>
+                                <h4>C/C++</h4>
+                                <div class="skill-level" data-level="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3>Game Development</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <i class="fab fa-unity"></i>
+                                <h4>Unity</h4>
+                                <div class="skill-level" data-level="95"></div>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fas fa-gamepad"></i>
+                                <h4>Game Design</h4>
+                                <div class="skill-level" data-level="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contributions" class="neu-section">
+                <h2>Contribution Activity</h2>
+                <div class="contribution-wrapper">
+                    <div class="contribution-graph" id="contribution-graph">
+                        <!-- Contribution graph will be populated by JavaScript -->
+                    </div>
+                    <div class="contribution-stats">
+                        <div id="contribution-calendar"></div>
+                        <div id="contribution-streak"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="sidebar right-sidebar">
+            <div class="neu-section contact-card">
+                <h3>Contact</h3>
+                <div class="contact-links">
+                    <a href="https://github.com/monitari" class="neu-button">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="mailto:your.email@example.com" class="neu-button">
+                        <i class="fas fa-envelope"></i> Email
+                    </a>
+                </div>
+            </div>
+            <div class="neu-section language-stats">
+                <h3>Top Languages</h3>
+                <canvas id="language-chart"></canvas>
+            </div>
+            <div class="neu-section achievements">
+                <h3>Achievements</h3>
+                <div id="achievements-list">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Monitari. Built with <i class="fas fa-heart"></i></p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
