@@ -69,9 +69,9 @@ function getProjectType(topics, languages) {
 }
 
 export function displayRecentActivity(events) {
-    console.log('Displaying recent activity:', events);
+    //console.log('Displaying recent activity:', events);
     if (!Array.isArray(events)) {
-        console.warn('Recent activity is not an array:', events);
+        //console.warn('Recent activity is not an array:', events);
         return;
     }
     const activityFeed = document.getElementById('activity-feed');

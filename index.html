@@ -17,6 +17,7 @@
             height: 100%;
             background: var(--bg-color);
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             z-index: 9999;
@@ -31,6 +32,13 @@
             animation: spin 1s linear infinite;
         }
 
+        .loading-text {
+            margin-top: 1rem;
+            color: var(--text-color);
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
         @keyframes spin {
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
@@ -40,6 +48,7 @@
 <body>
     <div class="loading-overlay" id="loading-overlay">
         <div class="loading-spinner"></div>
+        <div class="loading-text" id="loading-text"></div>
     </div>
     <div class="layout-container" style="display: none;">
         <!-- Left Sidebar -->
@@ -67,11 +76,12 @@
                 <div class="profile-header">
                     <img src="https://github.com/monitari.png" alt="Monitari Profile Image" class="profile-image">
                     <div class="profile-info">
-                        <h1 id="profile-name">Monitari</h1>
+                        <h1 id="profile-name">Monitari <small id="profile-nickname" class="nickname"></small></h1>
                         <p id="profile-bio" class="subtitle"></p>
                         <div class="profile-details">
-                            <span id="profile-company"><i class="fas fa-building"></i> </span>
-                            <span id="profile-location"><i class="fas fa-map-marker-alt"></i> </span>
+                            <span id="profile-pronouns"><i class="fas fa-user"></i> <span class="detail-text"></span></span>
+                            <span id="profile-company"><i class="fas fa-building"></i> <span class="detail-text"></span></span>
+                            <span id="profile-location"><i class="fas fa-map-marker-alt"></i> <span class="detail-text"></span></span>
                         </div>
                     </div>
                 </div>
@@ -172,10 +182,10 @@
             <div class="neu-section contact-card">
                 <h3>Contact</h3>
                 <div class="contact-links">
-                    <a href="https://github.com/monitari" class="neu-button">
+                    <a href="https://github.com/monitari" class="neu-button" id="github-link">
                         <i class="fab fa-github"></i> GitHub
                     </a>
-                    <a href="mailto:your.email@example.com" class="neu-button">
+                    <a href="mailto:your.email@example.com" class="neu-button" id="email-link">
                         <i class="fas fa-envelope"></i> Email
                     </a>
                 </div>
@@ -195,5 +205,6 @@
     <script type="module" src="scripts/github.js"></script>
     <script type="module" src="scripts/display.js"></script>
     <script type="module" src="scripts/init.js"></script>
+    <script type="module" src="scripts/loading.js"></script>
 </body>
 </html>
