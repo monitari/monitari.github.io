@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" role="img" aria-labelledby="title desc">
+  <title id="title">homework7 project cover</title>
+  <desc id="desc">Automatically generated project cover for homework7</desc>
+  <rect width="1080" height="1080" fill="#111111"/>
+  <rect x="0" y="0" width="14" height="1080" fill="#a8b9cc"/>
+  <text x="82" y="105" fill="#a8a8a8" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="600" letter-spacing="2">@MONITARI / CODE</text>
+  <circle cx="948" cy="94" r="14" fill="#a8b9cc"/>
+  <text x="82" y="470" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="94" font-weight="700" letter-spacing="-3">homework7</text>
+  <line x1="82" y1="875" x2="998" y2="875" stroke="#363636" stroke-width="2"/>
+  <text x="82" y="948" fill="#a8b9cc" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">C</text>
+  <text x="998" y="948" fill="#737373" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="27">github.com/monitari</text>
+</svg>

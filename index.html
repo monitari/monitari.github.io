@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="게임, 시뮬레이션, 웹을 통해 아이디어를 실제 경험으로 만드는 크리에이티브 개발자 Junhoo Kim의 포트폴리오입니다.">
-    <meta name="theme-color" content="#f5f7fb">
+    <meta name="description" content="게임, 시뮬레이션, 웹 프로젝트를 기록하는 크리에이티브 개발자 Junhoo Kim(@monitari)의 포트폴리오입니다.">
+    <meta name="theme-color" content="#ffffff">
     <meta name="color-scheme" content="light dark">
 
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="profile">
     <meta property="og:locale" content="ko_KR">
-    <meta property="og:title" content="Junhoo Kim · Creative Developer">
-    <meta property="og:description" content="게임, 시뮬레이션, 웹을 통해 아이디어를 실제 경험으로 만듭니다.">
+    <meta property="og:title" content="monitari (@monitari) · Projects">
+    <meta property="og:description" content="게임, 시뮬레이션, 웹 프로젝트를 한곳에 기록합니다.">
     <meta property="og:url" content="https://monitari.github.io/">
     <meta property="og:image" content="https://github.com/monitari.png?size=512">
     <meta property="og:image:alt" content="Junhoo Kim의 GitHub 프로필 이미지">
@@ -20,7 +20,7 @@
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
 
-    <title>Junhoo Kim · Creative Developer</title>
+    <title>monitari (@monitari) · Projects</title>
 
     <script type="application/ld+json">
     {
@@ -47,324 +47,198 @@
 <body>
     <a class="skip-link" href="#main-content">본문으로 바로가기</a>
 
-    <header class="site-header" id="top">
-        <div class="nav-shell">
-            <a class="brand" href="#top" aria-label="Monitari 포트폴리오 홈">
-                <span class="brand-mark" aria-hidden="true">M</span>
-                <span>MONITARI</span>
-            </a>
-
-            <nav class="site-nav" id="site-nav" aria-label="주요 메뉴">
-                <a href="#projects">Projects</a>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#contact">Contact</a>
+    <header class="topbar" id="top">
+        <div class="topbar-inner">
+            <a class="wordmark" href="#top" aria-label="monitari 홈">monitari</a>
+            <nav class="topbar-actions" aria-label="빠른 메뉴">
+                <a class="nav-icon" href="#profile" aria-label="프로필">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.8 12 3l9 7.8v9.7a.5.5 0 0 1-.5.5h-17a.5.5 0 0 1-.5-.5Z"></path><path d="M9 21v-7h6v7"></path></svg>
+                </a>
+                <a class="nav-icon" href="#posts" aria-label="프로젝트">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"></rect><rect x="14" y="3" width="7" height="7" rx="1"></rect><rect x="3" y="14" width="7" height="7" rx="1"></rect><rect x="14" y="14" width="7" height="7" rx="1"></rect></svg>
+                </a>
+                <a class="nav-icon" href="https://github.com/monitari" target="_blank" rel="noopener noreferrer" aria-label="GitHub 프로필 열기">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.3-.4 6.8-1.6 6.8-7.4A5.8 5.8 0 0 0 19.3 3 5.4 5.4 0 0 0 19.1 0S17.9-.4 15 1.5a14 14 0 0 0-7 0C5.1-.4 3.9 0 3.9 0a5.4 5.4 0 0 0-.2 3A5.8 5.8 0 0 0 2.2 7.1c0 5.8 3.5 7 6.8 7.4A4.8 4.8 0 0 0 8 18v4"></path><path d="M8 19c-3 .9-3-1.5-4.2-2"></path></svg>
+                </a>
+                <button class="nav-icon theme-toggle" id="theme-toggle" type="button" aria-label="다크 모드로 전환" aria-pressed="false">
+                    <svg class="theme-icon theme-icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5 8.5 8.5 0 1 0 20.5 14.2Z"></path></svg>
+                    <svg class="theme-icon theme-icon--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"></path></svg>
+                </button>
             </nav>
-
-            <div class="header-actions">
-                <button class="icon-button theme-toggle" id="theme-toggle" type="button" aria-label="다크 모드로 전환" aria-pressed="false">
-                    <svg class="theme-icon theme-icon--sun" viewBox="0 0 24 24" aria-hidden="true">
-                        <circle cx="12" cy="12" r="4"></circle>
-                        <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"></path>
-                    </svg>
-                    <svg class="theme-icon theme-icon--moon" viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5 8.5 8.5 0 1 0 20.5 14.2Z"></path>
-                    </svg>
-                </button>
-                <button class="icon-button menu-toggle" id="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="메뉴 열기">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
         </div>
     </header>
 
-    <main id="main-content">
-        <section class="hero section-shell" aria-labelledby="hero-title">
-            <div class="hero-copy reveal">
-                <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Creative Developer · Cheonan, Korea</p>
-                <h1 id="hero-title">아이디어를<br><span>작동하는</span><br>경험으로.</h1>
-                <p class="hero-description">
-                    게임과 시뮬레이션, 웹을 넘나들며 재미있는 질문을 직접 실행해 볼 수 있는 결과물로 만듭니다.
-                    빠르게 실험하고, 시스템을 이해하며, 배운 것을 다음 프로젝트에 연결합니다.
-                </p>
-                <div class="hero-actions">
-                    <a class="button button--primary" href="#projects">
-                        대표 프로젝트 보기
-                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
+    <main class="profile-page" id="main-content">
+        <section class="profile" id="profile" aria-labelledby="profile-username">
+            <div class="avatar-ring">
+                <img id="profile-avatar" src="https://github.com/monitari.png?size=320" alt="Junhoo Kim의 프로필 이미지" width="160" height="160" fetchpriority="high">
+            </div>
+
+            <div class="profile-info">
+                <div class="profile-title-row">
+                    <h1 id="profile-username">monitari</h1>
+                    <a class="profile-button profile-button--primary" href="https://github.com/monitari" target="_blank" rel="noopener noreferrer">GitHub에서 보기</a>
+                    <a class="profile-button" href="#about-panel" data-open-tab="about">소개</a>
+                </div>
+
+                <ul class="profile-stats" aria-label="GitHub 통계">
+                    <li><strong id="post-count">6</strong> 프로젝트</li>
+                    <li><strong id="repository-count">27</strong> 저장소</li>
+                    <li><strong id="follower-count">0</strong> 팔로워</li>
+                </ul>
+
+                <div class="profile-bio">
+                    <h2 id="profile-name">Junhoo Kim</h2>
+                    <p>게임, 시뮬레이션, 웹을 만들며 기술적 특이점과 새로운 상호작용을 탐구합니다.</p>
+                    <p class="profile-meta"><span id="profile-company">Chungbuk National University</span> · <span id="profile-location">Cheonan, South Korea</span></p>
+                    <a href="https://github.com/monitari?tab=repositories" target="_blank" rel="noopener noreferrer">github.com/monitari</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="highlights" aria-label="프로젝트 분야 필터">
+            <button class="highlight is-active" type="button" data-filter="all" aria-pressed="true">
+                <span class="highlight-ring"><span class="highlight-cover highlight-cover--all"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6" height="6" rx="1"></rect><rect x="14" y="4" width="6" height="6" rx="1"></rect><rect x="4" y="14" width="6" height="6" rx="1"></rect><rect x="14" y="14" width="6" height="6" rx="1"></rect></svg></span></span>
+                <span>All</span>
+            </button>
+            <button class="highlight" type="button" data-filter="game" aria-pressed="false">
+                <span class="highlight-ring"><span class="highlight-cover">GAME</span></span>
+                <span>Games</span>
+            </button>
+            <button class="highlight" type="button" data-filter="simulation" aria-pressed="false">
+                <span class="highlight-ring"><span class="highlight-cover">SIM</span></span>
+                <span>Simulations</span>
+            </button>
+            <button class="highlight" type="button" data-filter="ai" aria-pressed="false">
+                <span class="highlight-ring"><span class="highlight-cover">AI</span></span>
+                <span>AI</span>
+            </button>
+            <button class="highlight" type="button" data-filter="web" aria-pressed="false">
+                <span class="highlight-ring"><span class="highlight-cover">WEB</span></span>
+                <span>Web</span>
+            </button>
+            <button class="highlight" type="button" data-filter="code" aria-pressed="false">
+                <span class="highlight-ring"><span class="highlight-cover">&lt;/&gt;</span></span>
+                <span>Code</span>
+            </button>
+        </section>
+
+        <section class="profile-content" id="posts" aria-label="프로필 콘텐츠">
+            <div class="profile-tabs" role="tablist" aria-label="프로필 보기">
+                <button id="posts-tab" type="button" role="tab" aria-selected="true" aria-controls="posts-panel" tabindex="0">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"></rect><rect x="14" y="3" width="7" height="7" rx="1"></rect><rect x="3" y="14" width="7" height="7" rx="1"></rect><rect x="14" y="14" width="7" height="7" rx="1"></rect></svg>
+                    Posts
+                </button>
+                <button id="about-tab" type="button" role="tab" aria-selected="false" aria-controls="about-panel" tabindex="-1">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4.5 21a7.5 7.5 0 0 1 15 0"></path></svg>
+                    About
+                </button>
+            </div>
+
+            <div id="posts-panel" role="tabpanel" aria-labelledby="posts-tab">
+                <div class="project-grid" id="project-grid" aria-live="polite">
+                    <a class="project-tile" href="https://github.com/monitari/EGG" target="_blank" rel="noopener noreferrer" data-categories="game web">
+                        <span class="tile-fallback">EGG</span>
+                        <span class="tile-overlay"><strong>오늘의 계란</strong><span>JavaScript</span></span>
                     </a>
-                    <a class="button button--secondary" href="https://github.com/monitari" target="_blank" rel="noopener noreferrer">
-                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.3-.4 6.8-1.6 6.8-7.4A5.8 5.8 0 0 0 19.3 3 5.4 5.4 0 0 0 19.1 0S17.9-.4 15 1.5a14 14 0 0 0-7 0C5.1-.4 3.9 0 3.9 0a5.4 5.4 0 0 0-.2 3A5.8 5.8 0 0 0 2.2 7.1c0 5.8 3.5 7 6.8 7.4A4.8 4.8 0 0 0 8 18v4"></path><path d="M8 19c-3 .9-3-1.5-4.2-2"></path></svg>
-                        GitHub
+                    <a class="project-tile" href="https://github.com/monitari/WorldForge" target="_blank" rel="noopener noreferrer" data-categories="simulation web">
+                        <span class="tile-fallback">WF</span>
+                        <span class="tile-overlay"><strong>WorldForge</strong><span>TypeScript</span></span>
+                    </a>
+                    <a class="project-tile" href="https://github.com/monitari/Ghost" target="_blank" rel="noopener noreferrer" data-categories="game web">
+                        <span class="tile-fallback">GH</span>
+                        <span class="tile-overlay"><strong>Ghost Maze</strong><span>JavaScript</span></span>
+                    </a>
+                    <a class="project-tile" href="https://github.com/monitari/AI-Breakout" target="_blank" rel="noopener noreferrer" data-categories="game ai">
+                        <span class="tile-fallback">AI</span>
+                        <span class="tile-overlay"><strong>AI Breakout</strong><span>Python</span></span>
+                    </a>
+                    <a class="project-tile" href="https://github.com/monitari/Cell" target="_blank" rel="noopener noreferrer" data-categories="game simulation">
+                        <span class="tile-fallback">CELL</span>
+                        <span class="tile-overlay"><strong>Cell Evolution</strong><span>Python</span></span>
+                    </a>
+                    <a class="project-tile" href="https://github.com/monitari/Yutnori" target="_blank" rel="noopener noreferrer" data-categories="game">
+                        <span class="tile-fallback">YUT</span>
+                        <span class="tile-overlay"><strong>Yutnori</strong><span>C#</span></span>
                     </a>
                 </div>
+                <p class="sync-status" id="sync-status"><span aria-hidden="true"></span> GitHub 프로젝트를 불러오는 중…</p>
             </div>
 
-            <aside class="profile-card reveal" aria-label="프로필 요약">
-                <div class="profile-orbit" aria-hidden="true">
-                    <span class="orbit orbit--one"></span>
-                    <span class="orbit orbit--two"></span>
-                    <span class="orbit-dot orbit-dot--one"></span>
-                    <span class="orbit-dot orbit-dot--two"></span>
-                </div>
-                <img class="profile-image" src="https://github.com/monitari.png?size=320" alt="Junhoo Kim의 프로필 이미지" width="160" height="160" fetchpriority="high">
-                <div class="profile-heading">
-                    <p>안녕하세요, 저는</p>
-                    <h2>Junhoo Kim</h2>
-                    <span>@monitari</span>
-                </div>
-                <dl class="profile-facts">
-                    <div>
-                        <dt>Focus</dt>
-                        <dd>Games · Simulations · Web</dd>
-                    </div>
-                    <div>
-                        <dt>Based in</dt>
-                        <dd>Cheonan, South Korea</dd>
-                    </div>
-                    <div>
-                        <dt>Affiliation</dt>
-                        <dd>Chungbuk National University</dd>
-                    </div>
-                </dl>
-            </aside>
-        </section>
-
-        <section class="projects section-shell" id="projects" aria-labelledby="projects-title">
-            <div class="section-heading reveal">
-                <div>
-                    <p class="eyebrow">Selected work</p>
-                    <h2 id="projects-title">직접 만들며 탐구한 프로젝트</h2>
-                </div>
-                <p>저장소의 숫자보다 프로젝트가 풀고자 한 문제와 경험에 집중했습니다.</p>
-            </div>
-
-            <div class="project-toolbar reveal">
-                <div class="project-filters" role="group" aria-label="프로젝트 분야 필터">
-                    <button type="button" class="filter-button is-active" data-filter="all" aria-pressed="true">All</button>
-                    <button type="button" class="filter-button" data-filter="game" aria-pressed="false">Game</button>
-                    <button type="button" class="filter-button" data-filter="simulation" aria-pressed="false">Simulation</button>
-                    <button type="button" class="filter-button" data-filter="ai" aria-pressed="false">AI</button>
-                    <button type="button" class="filter-button" data-filter="web" aria-pressed="false">Web</button>
-                </div>
-                <p class="filter-status" id="filter-status" aria-live="polite">6개의 프로젝트</p>
-            </div>
-
-            <div class="project-grid">
-                <article class="project-card project-card--featured reveal" data-category="game web">
-                    <div class="project-visual project-visual--egg" aria-hidden="true">
-                        <div class="egg-scene">
-                            <span class="egg-white"><span class="egg-yolk"></span></span>
-                            <span class="pan-handle"></span>
-                            <span class="spark spark--one">✦</span>
-                            <span class="spark spark--two">✦</span>
-                        </div>
-                        <span class="project-index">01</span>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-meta"><span>Featured</span><time datetime="2026">2026</time></div>
-                        <h3>오늘의 계란 — 살살 톡톡</h3>
-                        <p>직접 계란을 톡 깨고 원하는 만큼 노릇하게 굽는 파스텔 2D 요리 게임입니다. 작은 상호작용의 손맛과 시각적 피드백에 집중했습니다.</p>
-                        <ul class="tech-list" aria-label="사용 기술">
-                            <li>JavaScript</li><li>Canvas</li><li>Game UI</li>
+            <div class="about-panel" id="about-panel" role="tabpanel" aria-labelledby="about-tab" hidden>
+                <article class="profile-post">
+                    <header>
+                        <img src="https://github.com/monitari.png?size=96" alt="" width="42" height="42">
+                        <div><strong>monitari</strong><span>Cheonan, South Korea</span></div>
+                    </header>
+                    <div class="profile-post-body">
+                        <p><strong>monitari</strong> 호기심을 코드로 검증합니다. 완벽한 답을 기다리기보다 작동하는 프로토타입을 만들고, 결과를 관찰한 뒤 다음 질문으로 나아가는 과정을 좋아합니다.</p>
+                        <p>Python을 중심으로 JavaScript·TypeScript, C#, Java와 C를 학습하며 게임, 시뮬레이션, 웹 프로젝트를 직접 만듭니다.</p>
+                        <ul class="skill-tags" aria-label="주요 기술">
+                            <li>#Python</li><li>#JavaScript</li><li>#TypeScript</li><li>#Unity</li><li>#CSharp</li><li>#Simulation</li><li>#MachineLearning</li>
                         </ul>
-                        <div class="project-links">
-                            <a href="https://monitari.github.io/EGG/" target="_blank" rel="noopener noreferrer">Live demo <span aria-hidden="true">↗</span></a>
-                            <a href="https://github.com/monitari/EGG" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
-                        </div>
                     </div>
+                    <footer>
+                        <a href="https://www.youtube.com/@monitari" target="_blank" rel="noopener noreferrer">YouTube</a>
+                        <a href="https://www.instagram.com/mo_nitari" target="_blank" rel="noopener noreferrer">Instagram</a>
+                        <a href="https://x.com/MONITARI1" target="_blank" rel="noopener noreferrer">X</a>
+                        <a href="https://steamcommunity.com/id/moni_tari" target="_blank" rel="noopener noreferrer">Steam</a>
+                    </footer>
                 </article>
-
-                <article class="project-card project-card--featured reveal" data-category="simulation web">
-                    <div class="project-visual project-visual--world" aria-hidden="true">
-                        <span class="world-globe"></span>
-                        <span class="world-ring world-ring--one"></span>
-                        <span class="world-ring world-ring--two"></span>
-                        <span class="world-node world-node--one"></span>
-                        <span class="world-node world-node--two"></span>
-                        <span class="world-node world-node--three"></span>
-                        <span class="project-index">02</span>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-meta"><span>Featured</span><time datetime="2026">2026</time></div>
-                        <h3>WorldForge</h3>
-                        <p>지리와 문명이 서로 영향을 주며 역사를 만들어 가는 관찰형 시뮬레이션입니다. 복잡한 시스템이 변화하는 과정을 한눈에 이해할 수 있도록 구성했습니다.</p>
-                        <ul class="tech-list" aria-label="사용 기술">
-                            <li>TypeScript</li><li>Simulation</li><li>Data UI</li>
-                        </ul>
-                        <div class="project-links">
-                            <a href="https://monitari.github.io/WorldForge/" target="_blank" rel="noopener noreferrer">Live demo <span aria-hidden="true">↗</span></a>
-                            <a href="https://github.com/monitari/WorldForge" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="project-card reveal" data-category="game web">
-                    <div class="project-visual project-visual--ghost" aria-hidden="true">
-                        <span class="maze-line maze-line--one"></span>
-                        <span class="maze-line maze-line--two"></span>
-                        <span class="ghost-shape"><i></i><i></i></span>
-                        <span class="project-index">03</span>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-meta"><span>Maze game</span><time datetime="2026">2026</time></div>
-                        <h3>Ghost Maze Adventure</h3>
-                        <p>서로 다른 특성을 가진 유령을 피해 미로를 탐험하는 웹 게임입니다.</p>
-                        <ul class="tech-list" aria-label="사용 기술"><li>JavaScript</li><li>Game Logic</li></ul>
-                        <div class="project-links">
-                            <a href="https://monitari.github.io/Ghost/" target="_blank" rel="noopener noreferrer">Live demo <span aria-hidden="true">↗</span></a>
-                            <a href="https://github.com/monitari/Ghost" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="project-card reveal" data-category="game ai">
-                    <div class="project-visual project-visual--breakout" aria-hidden="true">
-                        <span class="breakout-ball"></span>
-                        <span class="breakout-paddle"></span>
-                        <span class="breakout-bricks"></span>
-                        <span class="project-index">04</span>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-meta"><span>Machine learning</span><time datetime="2025">2025</time></div>
-                        <h3>AI Breakout</h3>
-                        <p>머신러닝 에이전트가 벽돌깨기를 학습하도록 구성한 게임 실험입니다.</p>
-                        <ul class="tech-list" aria-label="사용 기술"><li>Python</li><li>Machine Learning</li></ul>
-                        <div class="project-links">
-                            <a href="https://github.com/monitari/AI-Breakout" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="project-card reveal" data-category="game simulation">
-                    <div class="project-visual project-visual--cell" aria-hidden="true">
-                        <span class="cell cell--one"></span>
-                        <span class="cell cell--two"></span>
-                        <span class="cell cell--three"></span>
-                        <span class="project-index">05</span>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-meta"><span>Evolution simulation</span><time datetime="2025">2025</time></div>
-                        <h3>Cell Evolution</h3>
-                        <p>세포와 포식자의 관계를 통해 진화 과정을 관찰하는 시뮬레이션 게임입니다.</p>
-                        <ul class="tech-list" aria-label="사용 기술"><li>Python</li><li>Simulation</li></ul>
-                        <div class="project-links">
-                            <a href="https://github.com/monitari/Cell" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="project-card reveal" data-category="game">
-                    <div class="project-visual project-visual--yut" aria-hidden="true">
-                        <span class="yut-stick yut-stick--one"></span>
-                        <span class="yut-stick yut-stick--two"></span>
-                        <span class="yut-stick yut-stick--three"></span>
-                        <span class="yut-stick yut-stick--four"></span>
-                        <span class="project-index">06</span>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-meta"><span>Traditional game</span><time datetime="2025">2025</time></div>
-                        <h3>Yutnori</h3>
-                        <p>한국 전통 보드게임 윷놀이의 규칙과 흐름을 디지털 환경으로 옮긴 프로젝트입니다.</p>
-                        <ul class="tech-list" aria-label="사용 기술"><li>C#</li><li>Unity</li></ul>
-                        <div class="project-links">
-                            <a href="https://github.com/monitari/Yutnori" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
-                        </div>
-                    </div>
-                </article>
-            </div>
-
-            <a class="text-link all-projects-link reveal" href="https://github.com/monitari?tab=repositories" target="_blank" rel="noopener noreferrer">
-                GitHub에서 모든 프로젝트 보기 <span aria-hidden="true">↗</span>
-            </a>
-        </section>
-
-        <section class="about section-shell" id="about" aria-labelledby="about-title">
-            <div class="about-copy reveal">
-                <p class="eyebrow">About me</p>
-                <h2 id="about-title">호기심을 코드로 검증합니다.</h2>
-                <p>
-                    기술적 특이점과 기술이 사람의 경험을 바꾸는 방식에 관심이 있습니다. Python을 중심으로
-                    JavaScript·TypeScript, C#, Java와 C를 학습하며 게임, 시뮬레이션, 웹 프로젝트를 직접 만듭니다.
-                </p>
-                <p>
-                    완벽한 답을 기다리기보다 작동하는 프로토타입을 만들고, 결과를 관찰한 뒤 다음 질문으로 나아가는 과정을 좋아합니다.
-                </p>
-            </div>
-            <div class="principles-grid">
-                <article class="principle-card reveal">
-                    <span>01</span>
-                    <h3>Prototype</h3>
-                    <p>아이디어의 핵심을 빠르게 실행 가능한 형태로 만듭니다.</p>
-                </article>
-                <article class="principle-card reveal">
-                    <span>02</span>
-                    <h3>Understand</h3>
-                    <p>도구를 사용하는 데 그치지 않고 시스템의 동작 원리를 탐구합니다.</p>
-                </article>
-                <article class="principle-card reveal">
-                    <span>03</span>
-                    <h3>Iterate</h3>
-                    <p>실제 피드백과 관찰을 바탕으로 작게, 꾸준히 개선합니다.</p>
-                </article>
-            </div>
-        </section>
-
-        <section class="skills section-shell" id="skills" aria-labelledby="skills-title">
-            <div class="section-heading reveal">
-                <div>
-                    <p class="eyebrow">Skills & tools</p>
-                    <h2 id="skills-title">프로젝트로 쌓아가는 기술</h2>
-                </div>
-                <p>근거 없는 숙련도 퍼센트 대신 실제로 탐구하고 사용하는 영역을 보여줍니다.</p>
-            </div>
-            <div class="skill-groups">
-                <article class="skill-group reveal">
-                    <div class="skill-icon" aria-hidden="true">&lt;/&gt;</div>
-                    <h3>Build</h3>
-                    <p>아이디어를 실행 가능한 프로그램과 웹 경험으로 구현합니다.</p>
-                    <ul><li>Python</li><li>JavaScript</li><li>TypeScript</li><li>HTML & CSS</li></ul>
-                </article>
-                <article class="skill-group reveal">
-                    <div class="skill-icon" aria-hidden="true">◈</div>
-                    <h3>Game & Simulation</h3>
-                    <p>규칙과 상호작용이 살아 있는 시스템을 설계하고 관찰합니다.</p>
-                    <ul><li>Unity</li><li>C#</li><li>Game Logic</li><li>Simulation</li></ul>
-                </article>
-                <article class="skill-group reveal">
-                    <div class="skill-icon" aria-hidden="true">✦</div>
-                    <h3>Explore</h3>
-                    <p>새로운 기술을 실험하고 문제에 맞는 도구를 선택합니다.</p>
-                    <ul><li>Machine Learning</li><li>Java</li><li>C / C++</li><li>Git & GitHub</li></ul>
-                </article>
-            </div>
-        </section>
-
-        <section class="contact section-shell reveal" id="contact" aria-labelledby="contact-title">
-            <div class="contact-copy">
-                <p class="eyebrow">Let’s connect</p>
-                <h2 id="contact-title">흥미로운 아이디어가 있다면<br>함께 이야기해요.</h2>
-                <p>새로운 기술, 게임과 시뮬레이션, 독특한 실험에 관한 대화를 환영합니다.</p>
-            </div>
-            <div class="contact-actions">
-                <a class="button button--light" href="https://github.com/monitari" target="_blank" rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
-                <div class="social-links" aria-label="소셜 미디어">
-                    <a href="https://www.youtube.com/@monitari" target="_blank" rel="noopener noreferrer">YouTube</a>
-                    <a href="https://www.instagram.com/mo_nitari" target="_blank" rel="noopener noreferrer">Instagram</a>
-                    <a href="https://x.com/MONITARI1" target="_blank" rel="noopener noreferrer">X</a>
-                    <a href="https://steamcommunity.com/id/moni_tari" target="_blank" rel="noopener noreferrer">Steam</a>
-                </div>
             </div>
         </section>
     </main>
 
-    <footer class="site-footer">
-        <div class="section-shell footer-inner">
-            <p>© <span id="current-year">2026</span> Junhoo Kim</p>
-            <p>Curiosity, crafted into code.</p>
-            <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+        <div class="dialog-layout">
+            <div class="dialog-media">
+                <span class="dialog-fallback" id="dialog-fallback" aria-hidden="true"></span>
+                <img id="dialog-image" src="" alt="">
+            </div>
+            <div class="dialog-details">
+                <header class="dialog-header">
+                    <img src="https://github.com/monitari.png?size=96" alt="" width="38" height="38">
+                    <div><strong>monitari</strong><span id="dialog-repository-name"></span></div>
+                    <button class="dialog-close" id="dialog-close" type="button" aria-label="프로젝트 상세 닫기">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"></path></svg>
+                    </button>
+                </header>
+                <div class="dialog-caption">
+                    <div class="caption-avatar"><img src="https://github.com/monitari.png?size=72" alt="" width="34" height="34"></div>
+                    <div>
+                        <p><strong>monitari</strong> <span id="dialog-description"></span></p>
+                        <ul class="dialog-tags" id="dialog-tags"></ul>
+                        <time id="dialog-updated"></time>
+                    </div>
+                </div>
+                <div class="dialog-spacer"></div>
+                <div class="dialog-actions">
+                    <div class="dialog-icon-row">
+                        <button class="dialog-icon-button" id="like-button" type="button" aria-label="프로젝트 좋아요" aria-pressed="false">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21l7.8-7.5 1.1-1.1a5.5 5.5 0 0 0-.1-7.8Z"></path></svg>
+                        </button>
+                        <button class="dialog-icon-button" id="share-button" type="button" aria-label="프로젝트 링크 복사">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"></path><path d="M22 2 11 13"></path></svg>
+                        </button>
+                    </div>
+                    <p class="dialog-stats" id="dialog-stats"></p>
+                    <div class="dialog-links">
+                        <a id="dialog-repository" href="#" target="_blank" rel="noopener noreferrer">Repository</a>
+                        <a id="dialog-demo" href="#" target="_blank" rel="noopener noreferrer">Live demo</a>
+                    </div>
+                    <p class="copy-feedback" id="copy-feedback" aria-live="polite"></p>
+                </div>
+            </div>
         </div>
+    </dialog>
+
+    <footer class="site-footer">
+        <nav aria-label="소셜 링크">
+            <a href="https://github.com/monitari" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.youtube.com/@monitari" target="_blank" rel="noopener noreferrer">YouTube</a>
+            <a href="https://www.instagram.com/mo_nitari" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </nav>
+        <p>© <span id="current-year">2026</span> MONITARI</p>
     </footer>
 
     <script type="module" src="scripts/themes.js"></script>

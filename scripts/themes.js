@@ -26,7 +26,7 @@ function applyTheme(theme, persist = false) {
     root.dataset.theme = isDark ? 'dark' : 'light';
     toggle.setAttribute('aria-pressed', String(isDark));
     toggle.setAttribute('aria-label', isDark ? '라이트 모드로 전환' : '다크 모드로 전환');
-    themeColor?.setAttribute('content', isDark ? '#0b1321' : '#f5f7fb');
+    themeColor?.setAttribute('content', isDark ? '#000000' : '#ffffff');
 
     if (persist) {
         saveTheme(isDark ? 'dark' : 'light');

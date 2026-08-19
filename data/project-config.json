@@ -1,0 +1,47 @@
+{
+  "owner": "monitari",
+  "exclude": [
+    "monitari",
+    "monitari.github.io"
+  ],
+  "featured": [
+    "EGG",
+    "WorldForge",
+    "Ghost",
+    "AI-Breakout",
+    "Cell",
+    "Yutnori"
+  ],
+  "overrides": {
+    "EGG": {
+      "title": "오늘의 계란 — 살살 톡톡",
+      "description": "직접 톡 깨고 원하는 만큼 노릇하게 굽는 파스텔 2D 계란 요리 게임",
+      "categories": ["game", "web"],
+      "demoUrl": "https://monitari.github.io/EGG/"
+    },
+    "WorldForge": {
+      "description": "지리와 문명이 서로 영향을 주며 역사를 만드는 관찰형 시뮬레이션",
+      "categories": ["simulation", "web"],
+      "demoUrl": "https://monitari.github.io/WorldForge/"
+    },
+    "Ghost": {
+      "title": "Ghost Maze Adventure",
+      "description": "서로 다른 특성을 가진 유령을 피해 미로를 탐험하는 웹 게임",
+      "categories": ["game", "web"],
+      "demoUrl": "https://monitari.github.io/Ghost/"
+    },
+    "AI-Breakout": {
+      "description": "머신러닝 에이전트가 벽돌깨기를 학습하도록 구성한 게임 실험",
+      "categories": ["game", "ai"]
+    },
+    "Cell": {
+      "title": "Cell Evolution",
+      "description": "세포와 포식자의 관계를 통해 진화 과정을 관찰하는 시뮬레이션 게임",
+      "categories": ["game", "simulation"]
+    },
+    "Yutnori": {
+      "description": "한국 전통 보드게임 윷놀이의 규칙과 흐름을 디지털 환경으로 옮긴 프로젝트",
+      "categories": ["game"]
+    }
+  }
+}

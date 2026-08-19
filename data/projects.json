@@ -1,0 +1,398 @@
+{
+  "generatedAt": "2026-08-19T07:55:23.389Z",
+  "profile": {
+    "login": "monitari",
+    "name": "Junhoo Kim",
+    "bio": "The Singularity Is Near",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/127321026?v=4",
+    "profileUrl": "https://github.com/monitari",
+    "location": "Cheonan, South Korea",
+    "company": "Chungbuk National University",
+    "followers": 1,
+    "following": 2,
+    "publicRepositories": 27
+  },
+  "projects": [
+    {
+      "name": "EGG",
+      "title": "오늘의 계란 — 살살 톡톡",
+      "description": "직접 톡 깨고 원하는 만큼 노릇하게 굽는 파스텔 2D 계란 요리 게임",
+      "repositoryUrl": "https://github.com/monitari/EGG",
+      "demoUrl": "https://monitari.github.io/EGG/",
+      "previewUrl": "assets/projects/egg-c7db249b62.svg",
+      "language": "JavaScript",
+      "topics": [],
+      "categories": [
+        "game",
+        "web"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-08-19T06:47:27Z",
+      "featured": true
+    },
+    {
+      "name": "WorldForge",
+      "title": "WorldForge",
+      "description": "지리와 문명이 서로 영향을 주며 역사를 만드는 관찰형 시뮬레이션",
+      "repositoryUrl": "https://github.com/monitari/WorldForge",
+      "demoUrl": "https://monitari.github.io/WorldForge/",
+      "previewUrl": "assets/projects/worldforge-e1c3bad0cb.png",
+      "language": "TypeScript",
+      "topics": [],
+      "categories": [
+        "simulation",
+        "web"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-08-19T06:34:24Z",
+      "featured": true
+    },
+    {
+      "name": "Ghost",
+      "title": "Ghost Maze Adventure",
+      "description": "서로 다른 특성을 가진 유령을 피해 미로를 탐험하는 웹 게임",
+      "repositoryUrl": "https://github.com/monitari/Ghost",
+      "demoUrl": "https://monitari.github.io/Ghost/",
+      "previewUrl": "assets/projects/ghost-d133c18f0d.png",
+      "language": "JavaScript",
+      "topics": [],
+      "categories": [
+        "game",
+        "web"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-24T17:09:01Z",
+      "featured": true
+    },
+    {
+      "name": "AI-Breakout",
+      "title": "AI-Breakout",
+      "description": "머신러닝 에이전트가 벽돌깨기를 학습하도록 구성한 게임 실험",
+      "repositoryUrl": "https://github.com/monitari/AI-Breakout",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/ai-breakout-7bf14722de.png",
+      "language": "Python",
+      "topics": [],
+      "categories": [
+        "game",
+        "ai"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2025-01-29T09:38:05Z",
+      "featured": true
+    },
+    {
+      "name": "Cell",
+      "title": "Cell Evolution",
+      "description": "세포와 포식자의 관계를 통해 진화 과정을 관찰하는 시뮬레이션 게임",
+      "repositoryUrl": "https://github.com/monitari/Cell",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/cell-0f86c9c8e5.png",
+      "language": "Python",
+      "topics": [],
+      "categories": [
+        "game",
+        "simulation"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2025-01-24T12:36:35Z",
+      "featured": true
+    },
+    {
+      "name": "Yutnori",
+      "title": "Yutnori",
+      "description": "한국 전통 보드게임 윷놀이의 규칙과 흐름을 디지털 환경으로 옮긴 프로젝트",
+      "repositoryUrl": "https://github.com/monitari/Yutnori",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/yutnori-f4599dbf7c.svg",
+      "language": "C#",
+      "topics": [],
+      "categories": [
+        "game"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2025-01-20T17:19:38Z",
+      "featured": true
+    },
+    {
+      "name": "dcinside",
+      "title": "dcinside",
+      "description": "This project demonstrates web scraping of DC Inside gallery posts using Python's requests and BeautifulSoup.",
+      "repositoryUrl": "https://github.com/monitari/dcinside",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/dcinside-b4fe202e6b.svg",
+      "language": "HTML",
+      "topics": [],
+      "categories": [
+        "web"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2025-02-03T06:36:32Z",
+      "featured": false
+    },
+    {
+      "name": "Pandemic",
+      "title": "Pandemic",
+      "description": "Pandemic simulation",
+      "repositoryUrl": "https://github.com/monitari/Pandemic",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/pandemic-d7ced8b4b6.svg",
+      "language": "Python",
+      "topics": [],
+      "categories": [
+        "simulation"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2025-01-26T11:38:52Z",
+      "featured": false
+    },
+    {
+      "name": "komantle",
+      "title": "komantle",
+      "description": "KOMANTLE is a word similarity guessing game inspired by the original 꼬맨틀 site. This project uses JavaScript to replicate the core functionality of the game.",
+      "repositoryUrl": "https://github.com/monitari/komantle",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/komantle-ffe3f2a081.png",
+      "language": "JavaScript",
+      "topics": [],
+      "categories": [
+        "game",
+        "web"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2025-01-04T15:09:34Z",
+      "featured": false
+    },
+    {
+      "name": "map",
+      "title": "map",
+      "description": "making SVG election map of Fantasy Nation",
+      "repositoryUrl": "https://github.com/monitari/map",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/map-2165807672.png",
+      "language": "HTML",
+      "topics": [],
+      "categories": [
+        "web"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2025-01-04T13:36:42Z",
+      "featured": false
+    },
+    {
+      "name": "LittleWARS-Unity",
+      "title": "LittleWARS-Unity",
+      "description": "This project is a step-by-step implementation of a Casual Defense Game using Unity and Unity Bolt (Visual Scripting).",
+      "repositoryUrl": "https://github.com/monitari/LittleWARS-Unity",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/littlewars-unity-a0fab7d773.png",
+      "language": "CMake",
+      "topics": [],
+      "categories": [
+        "game"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2025-01-02T16:31:15Z",
+      "featured": false
+    },
+    {
+      "name": "JELLY-Unity",
+      "title": "JELLY-Unity",
+      "description": "This project is a step-by-step implementation of an idle game, following the Unity tutorial series by 골드메탈.",
+      "repositoryUrl": "https://github.com/monitari/JELLY-Unity",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/jelly-unity-b4a63b3b96.png",
+      "language": "HTML",
+      "topics": [],
+      "categories": [
+        "game",
+        "web"
+      ],
+      "stars": 1,
+      "forks": 0,
+      "updatedAt": "2025-01-02T12:37:24Z",
+      "featured": false
+    },
+    {
+      "name": "clue",
+      "title": "clue",
+      "description": "Cluedo known as Clue in North America, is a murder mystery game for three to six players (depending on editions) that was devised in 1943 by British board game designer Anthony E. Pratt.",
+      "repositoryUrl": "https://github.com/monitari/clue",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/clue-1b573db50a.png",
+      "language": "Python",
+      "topics": [],
+      "categories": [
+        "game"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2024-06-16T06:04:29Z",
+      "featured": false
+    },
+    {
+      "name": "homework9",
+      "title": "homework9",
+      "description": "Week 9 homework",
+      "repositoryUrl": "https://github.com/monitari/homework9",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/homework9-454ead3eb3.svg",
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "code"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2024-06-01T14:29:45Z",
+      "featured": false
+    },
+    {
+      "name": "homework8",
+      "title": "homework8",
+      "description": "Week 8 homework (actually 12)",
+      "repositoryUrl": "https://github.com/monitari/homework8",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/homework8-a518496aa2.svg",
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "code"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2024-05-25T05:53:00Z",
+      "featured": false
+    },
+    {
+      "name": "homework7",
+      "title": "homework7",
+      "description": "Week 7 homework",
+      "repositoryUrl": "https://github.com/monitari/homework7",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/homework7-857f6a57de.svg",
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "code"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2024-04-20T06:35:46Z",
+      "featured": false
+    },
+    {
+      "name": "homework6",
+      "title": "homework6",
+      "description": "Week 6 homework",
+      "repositoryUrl": "https://github.com/monitari/homework6",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/homework6-043ce82541.svg",
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "code"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2024-04-13T06:08:56Z",
+      "featured": false
+    },
+    {
+      "name": "homework5",
+      "title": "homework5",
+      "description": "Week 5 homework",
+      "repositoryUrl": "https://github.com/monitari/homework5",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/homework5-e916ffbf5a.svg",
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "code"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2024-04-06T06:31:38Z",
+      "featured": false
+    },
+    {
+      "name": "homework4",
+      "title": "homework4",
+      "description": "Week 4 homework",
+      "repositoryUrl": "https://github.com/monitari/homework4",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/homework4-a5059e5e6f.svg",
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "code"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2024-03-29T12:36:21Z",
+      "featured": false
+    },
+    {
+      "name": "homework3",
+      "title": "homework3",
+      "description": "Week 3 homework ",
+      "repositoryUrl": "https://github.com/monitari/homework3",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/homework3-b6142b4568.svg",
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "code"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2024-03-23T05:23:22Z",
+      "featured": false
+    },
+    {
+      "name": "homework2",
+      "title": "homework2",
+      "description": "Week 2 homework ",
+      "repositoryUrl": "https://github.com/monitari/homework2",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/homework2-0895fc5d8b.svg",
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "code"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2024-03-16T07:42:47Z",
+      "featured": false
+    },
+    {
+      "name": "firstproject",
+      "title": "firstproject",
+      "description": "my github first project",
+      "repositoryUrl": "https://github.com/monitari/firstproject",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/firstproject-fa05b9fc8f.svg",
+      "language": "HTML",
+      "topics": [],
+      "categories": [
+        "web"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2023-11-24T06:49:22Z",
+      "featured": false
+    }
+  ]
+}
