@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T04:57:48.833Z",
+  "generatedAt": "2026-08-26T05:51:54.250Z",
   "profile": {
     "login": "monitari",
     "name": "Junhoo Kim",
@@ -119,6 +119,23 @@
       "forks": 0,
       "updatedAt": "2025-01-20T17:19:38Z",
       "featured": true
+    },
+    {
+      "name": "SWINGBY",
+      "title": "SWINGBY",
+      "description": "GDScript project on GitHub",
+      "repositoryUrl": "https://github.com/monitari/SWINGBY",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/swingby-de4ca517da.svg",
+      "language": "GDScript",
+      "topics": [],
+      "categories": [
+        "code"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-08-26T04:42:55Z",
+      "featured": false
     },
     {
       "name": "dcinside",
