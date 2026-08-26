@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T17:51:11.141Z",
+  "generatedAt": "2026-08-26T19:21:48.212Z",
   "profile": {
     "login": "monitari",
     "name": "Junhoo Kim",
@@ -126,7 +126,7 @@
       "description": "SWINGBY is a gravity swing-by game where you launch a spaceship using gravitational sources within constellations and complete its trajectory. Break through 12 constellations with precise aiming and speed control, and challenge the all-time record on the Infinite Voyage. (used CODEX and CLAUDE Code)",
       "repositoryUrl": "https://github.com/monitari/SWINGBY",
       "demoUrl": null,
-      "previewUrl": "assets/projects/swingby-d9a7c105ab.svg",
+      "previewUrl": "assets/projects/swingby-60bb6a24d4.svg",
       "language": "GDScript",
       "topics": [],
       "categories": [
@@ -134,7 +134,7 @@
       ],
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-08-26T16:24:44Z",
+      "updatedAt": "2026-08-26T17:52:53Z",
       "featured": false
     },
     {
