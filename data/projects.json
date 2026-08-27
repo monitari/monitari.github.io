@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T19:21:48.212Z",
+  "generatedAt": "2026-08-27T20:33:15.999Z",
   "profile": {
     "login": "monitari",
     "name": "Junhoo Kim",
@@ -10,7 +10,7 @@
     "company": "Chungbuk National University",
     "followers": 1,
     "following": 2,
-    "publicRepositories": 28
+    "publicRepositories": 29
   },
   "projects": [
     {
@@ -121,12 +121,29 @@
       "featured": true
     },
     {
+      "name": "KOREA_ELECTION",
+      "title": "KOREA_ELECTION",
+      "description": "An interactive map-based archive of South Korean presidential election results from the 13th to 21st elections.",
+      "repositoryUrl": "https://github.com/monitari/KOREA_ELECTION",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/korea-election-4f1d33dc0c.png",
+      "language": "HTML",
+      "topics": [],
+      "categories": [
+        "web"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-08-27T15:22:48Z",
+      "featured": false
+    },
+    {
       "name": "SWINGBY",
       "title": "SWINGBY",
       "description": "SWINGBY is a gravity swing-by game where you launch a spaceship using gravitational sources within constellations and complete its trajectory. Break through 12 constellations with precise aiming and speed control, and challenge the all-time record on the Infinite Voyage. (used CODEX and CLAUDE Code)",
       "repositoryUrl": "https://github.com/monitari/SWINGBY",
       "demoUrl": null,
-      "previewUrl": "assets/projects/swingby-60bb6a24d4.svg",
+      "previewUrl": "assets/projects/swingby-e3516e44cf.png",
       "language": "GDScript",
       "topics": [],
       "categories": [
@@ -134,7 +151,7 @@
       ],
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-08-26T17:52:53Z",
+      "updatedAt": "2026-08-27T15:22:09Z",
       "featured": false
     },
     {
