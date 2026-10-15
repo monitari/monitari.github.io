@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T02:00:52.575Z",
+  "generatedAt": "2026-10-15T15:04:54.461Z",
   "profile": {
     "login": "monitari",
     "name": "monitari",
@@ -10,7 +10,7 @@
     "company": "Chungbuk National University",
     "followers": 2,
     "following": 2,
-    "publicRepositories": 29
+    "publicRepositories": 30
   },
   "projects": [
     {
@@ -119,6 +119,36 @@
       "forks": 0,
       "updatedAt": "2025-01-20T17:19:38Z",
       "featured": true
+    },
+    {
+      "name": "CO-OP_SURVIVORS",
+      "title": "CO-OP_SURVIVORS",
+      "description": "🐾 사슬로 묶인 두 고양이가 밤의 옥상을 지키는 2인 협동 서바이버라이크 (Godot 4.7.2, 2026 인디유 출품작) · A 2-player chained co-op survivor-like",
+      "repositoryUrl": "https://github.com/monitari/CO-OP_SURVIVORS",
+      "demoUrl": "https://github.com/monitari/CO-OP_SURVIVORS/releases/latest",
+      "previewUrl": "assets/projects/co-op-survivors-4accf7c5e0.png",
+      "language": "GDScript",
+      "topics": [
+        "2d-game",
+        "cats",
+        "co-op",
+        "game",
+        "gdscript",
+        "godot",
+        "godot4",
+        "indie-game",
+        "korean",
+        "local-multiplayer",
+        "roguelite",
+        "survivor-like"
+      ],
+      "categories": [
+        "game"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-10-15T13:32:56Z",
+      "featured": false
     },
     {
       "name": "KOREA_ELECTION",
