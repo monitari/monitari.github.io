@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T15:40:21.578Z",
+  "generatedAt": "2026-10-19T21:06:50.276Z",
   "profile": {
     "login": "monitari",
     "name": "monitari",
@@ -126,7 +126,7 @@
       "description": "마우스로 만지는 인터랙티브 웹 애니메이션 82종. 홀로 카드, 리퀴드 글래스, 물리, 셰이더. 라이브러리 없이 HTML·CSS·JS만.",
       "repositoryUrl": "https://github.com/monitari/motion-lab",
       "demoUrl": "https://monitari.github.io/motion-lab/",
-      "previewUrl": "assets/projects/motion-lab-bc4bfadf37.svg",
+      "previewUrl": "assets/projects/motion-lab-297bbdb2c1.svg",
       "language": "JavaScript",
       "topics": [],
       "categories": [
@@ -134,7 +134,7 @@
       ],
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-10-19T13:25:18Z",
+      "updatedAt": "2026-10-19T16:33:28Z",
       "featured": false
     },
     {
