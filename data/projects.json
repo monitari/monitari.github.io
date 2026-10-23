@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T21:06:50.276Z",
+  "generatedAt": "2026-10-23T14:19:39.427Z",
   "profile": {
     "login": "monitari",
     "name": "monitari",
@@ -10,7 +10,7 @@
     "company": "Chungbuk National University",
     "followers": 2,
     "following": 2,
-    "publicRepositories": 31
+    "publicRepositories": 32
   },
   "projects": [
     {
@@ -19,7 +19,7 @@
       "description": "계란을 톡 깨서 원하는 만큼 굽는 파스텔톤 2D 요리 게임",
       "repositoryUrl": "https://github.com/monitari/EGG",
       "demoUrl": "https://monitari.github.io/EGG/",
-      "previewUrl": "assets/projects/egg-c7db249b62.svg",
+      "previewUrl": "assets/projects/egg-6055492bdd.svg",
       "language": "JavaScript",
       "topics": [],
       "categories": [
@@ -37,7 +37,7 @@
       "description": "지형과 문명이 서로 영향을 주고받으며 역사가 쌓이는 걸 지켜보는 시뮬레이션",
       "repositoryUrl": "https://github.com/monitari/WorldForge",
       "demoUrl": "https://monitari.github.io/WorldForge/",
-      "previewUrl": "assets/projects/worldforge-e1c3bad0cb.png",
+      "previewUrl": "assets/projects/worldforge-3fc9bace1c.png",
       "language": "TypeScript",
       "topics": [],
       "categories": [
@@ -55,7 +55,7 @@
       "description": "성격이 제각각인 유령들을 피해 미로를 빠져나가는 웹 게임",
       "repositoryUrl": "https://github.com/monitari/Ghost",
       "demoUrl": "https://monitari.github.io/Ghost/",
-      "previewUrl": "assets/projects/ghost-d133c18f0d.png",
+      "previewUrl": "assets/projects/ghost-661550ed0a.png",
       "language": "JavaScript",
       "topics": [],
       "categories": [
@@ -73,7 +73,7 @@
       "description": "벽돌깨기를 머신러닝 에이전트한테 맡겨 본 실험",
       "repositoryUrl": "https://github.com/monitari/AI-Breakout",
       "demoUrl": null,
-      "previewUrl": "assets/projects/ai-breakout-7bf14722de.png",
+      "previewUrl": "assets/projects/ai-breakout-c71f65bc10.png",
       "language": "Python",
       "topics": [],
       "categories": [
@@ -91,7 +91,7 @@
       "description": "세포와 포식자가 먹고 먹히면서 진화하는 시뮬레이션 게임",
       "repositoryUrl": "https://github.com/monitari/Cell",
       "demoUrl": null,
-      "previewUrl": "assets/projects/cell-0f86c9c8e5.png",
+      "previewUrl": "assets/projects/cell-eb9d67da6c.png",
       "language": "Python",
       "topics": [],
       "categories": [
@@ -109,7 +109,7 @@
       "description": "윷놀이를 그대로 옮겨 온 디지털 보드게임",
       "repositoryUrl": "https://github.com/monitari/Yutnori",
       "demoUrl": null,
-      "previewUrl": "assets/projects/yutnori-f4599dbf7c.svg",
+      "previewUrl": "assets/projects/yutnori-afa69fbd31.svg",
       "language": "C#",
       "topics": [],
       "categories": [
@@ -126,7 +126,7 @@
       "description": "마우스로 만지는 인터랙티브 웹 애니메이션 82종. 홀로 카드부터 리퀴드 글래스, 물리, 셰이더까지 라이브러리 없이 만들었다",
       "repositoryUrl": "https://github.com/monitari/motion-lab",
       "demoUrl": "https://monitari.github.io/motion-lab/",
-      "previewUrl": "assets/projects/motion-lab-297bbdb2c1.svg",
+      "previewUrl": "assets/projects/motion-lab-324067d754.svg",
       "language": "JavaScript",
       "topics": [],
       "categories": [
@@ -143,7 +143,7 @@
       "description": "사슬로 묶인 고양이 두 마리가 밤의 옥상을 지키는 2인 협동 서바이버라이크. Godot 4로 만든 2026 인디유 출품작",
       "repositoryUrl": "https://github.com/monitari/CO-OP_SURVIVORS",
       "demoUrl": "https://github.com/monitari/CO-OP_SURVIVORS/releases/latest",
-      "previewUrl": "assets/projects/co-op-survivors-4accf7c5e0.png",
+      "previewUrl": "assets/projects/co-op-survivors-16a9dc30e9.png",
       "language": "GDScript",
       "topics": [
         "2d-game",
@@ -173,7 +173,7 @@
       "description": "13대부터 21대까지 대통령 선거 결과를 지도로 훑어보는 아카이브",
       "repositoryUrl": "https://github.com/monitari/KOREA_ELECTION",
       "demoUrl": null,
-      "previewUrl": "assets/projects/korea-election-4f1d33dc0c.png",
+      "previewUrl": "assets/projects/korea-election-d46a1580a8.png",
       "language": "HTML",
       "topics": [],
       "categories": [
@@ -190,7 +190,7 @@
       "description": "별자리 속 중력원을 이용해 우주선을 스윙바이로 날려 보내는 게임. 별자리 12개를 돌파하고 무한 항해 기록에 도전한다",
       "repositoryUrl": "https://github.com/monitari/SWINGBY",
       "demoUrl": null,
-      "previewUrl": "assets/projects/swingby-e3516e44cf.png",
+      "previewUrl": "assets/projects/swingby-ba02e00005.png",
       "language": "GDScript",
       "topics": [],
       "categories": [
@@ -207,7 +207,7 @@
       "description": "This project demonstrates web scraping of DC Inside gallery posts using Python's requests and BeautifulSoup.",
       "repositoryUrl": "https://github.com/monitari/dcinside",
       "demoUrl": null,
-      "previewUrl": "assets/projects/dcinside-b4fe202e6b.svg",
+      "previewUrl": "assets/projects/dcinside-9a628bec1e.svg",
       "language": "HTML",
       "topics": [],
       "categories": [
@@ -224,7 +224,7 @@
       "description": "Pandemic simulation",
       "repositoryUrl": "https://github.com/monitari/Pandemic",
       "demoUrl": null,
-      "previewUrl": "assets/projects/pandemic-d7ced8b4b6.svg",
+      "previewUrl": "assets/projects/pandemic-606cfe3aff.svg",
       "language": "Python",
       "topics": [],
       "categories": [
@@ -241,7 +241,7 @@
       "description": "KOMANTLE is a word similarity guessing game inspired by the original 꼬맨틀 site. This project uses JavaScript to replicate the core functionality of the game.",
       "repositoryUrl": "https://github.com/monitari/komantle",
       "demoUrl": null,
-      "previewUrl": "assets/projects/komantle-ffe3f2a081.png",
+      "previewUrl": "assets/projects/komantle-3e5a8dc035.png",
       "language": "JavaScript",
       "topics": [],
       "categories": [
@@ -259,7 +259,7 @@
       "description": "making SVG election map of Fantasy Nation",
       "repositoryUrl": "https://github.com/monitari/map",
       "demoUrl": null,
-      "previewUrl": "assets/projects/map-2165807672.png",
+      "previewUrl": "assets/projects/map-2fb80d3dfc.png",
       "language": "HTML",
       "topics": [],
       "categories": [
@@ -276,7 +276,7 @@
       "description": "This project is a step-by-step implementation of a Casual Defense Game using Unity and Unity Bolt (Visual Scripting).",
       "repositoryUrl": "https://github.com/monitari/LittleWARS-Unity",
       "demoUrl": null,
-      "previewUrl": "assets/projects/littlewars-unity-a0fab7d773.png",
+      "previewUrl": "assets/projects/littlewars-unity-7bf54998a8.png",
       "language": "CMake",
       "topics": [],
       "categories": [
@@ -293,7 +293,7 @@
       "description": "This project is a step-by-step implementation of an idle game, following the Unity tutorial series by 골드메탈.",
       "repositoryUrl": "https://github.com/monitari/JELLY-Unity",
       "demoUrl": null,
-      "previewUrl": "assets/projects/jelly-unity-b4a63b3b96.png",
+      "previewUrl": "assets/projects/jelly-unity-7d5c71d79a.png",
       "language": "HTML",
       "topics": [],
       "categories": [
@@ -311,7 +311,7 @@
       "description": "Cluedo known as Clue in North America, is a murder mystery game for three to six players (depending on editions) that was devised in 1943 by British board game designer Anthony E. Pratt.",
       "repositoryUrl": "https://github.com/monitari/clue",
       "demoUrl": null,
-      "previewUrl": "assets/projects/clue-1b573db50a.png",
+      "previewUrl": "assets/projects/clue-88453ce8e6.png",
       "language": "Python",
       "topics": [],
       "categories": [
@@ -328,7 +328,7 @@
       "description": "Week 9 homework",
       "repositoryUrl": "https://github.com/monitari/homework9",
       "demoUrl": null,
-      "previewUrl": "assets/projects/homework9-454ead3eb3.svg",
+      "previewUrl": "assets/projects/homework9-c03d3b9702.svg",
       "language": "C",
       "topics": [],
       "categories": [
@@ -345,7 +345,7 @@
       "description": "Week 8 homework (actually 12)",
       "repositoryUrl": "https://github.com/monitari/homework8",
       "demoUrl": null,
-      "previewUrl": "assets/projects/homework8-a518496aa2.svg",
+      "previewUrl": "assets/projects/homework8-9bc649264c.svg",
       "language": "C",
       "topics": [],
       "categories": [
@@ -362,7 +362,7 @@
       "description": "Week 7 homework",
       "repositoryUrl": "https://github.com/monitari/homework7",
       "demoUrl": null,
-      "previewUrl": "assets/projects/homework7-857f6a57de.svg",
+      "previewUrl": "assets/projects/homework7-15e2437219.svg",
       "language": "C",
       "topics": [],
       "categories": [
@@ -379,7 +379,7 @@
       "description": "Week 6 homework",
       "repositoryUrl": "https://github.com/monitari/homework6",
       "demoUrl": null,
-      "previewUrl": "assets/projects/homework6-043ce82541.svg",
+      "previewUrl": "assets/projects/homework6-3cea6ca34e.svg",
       "language": "C",
       "topics": [],
       "categories": [
@@ -396,7 +396,7 @@
       "description": "Week 5 homework",
       "repositoryUrl": "https://github.com/monitari/homework5",
       "demoUrl": null,
-      "previewUrl": "assets/projects/homework5-e916ffbf5a.svg",
+      "previewUrl": "assets/projects/homework5-9a58e8673b.svg",
       "language": "C",
       "topics": [],
       "categories": [
@@ -413,7 +413,7 @@
       "description": "Week 4 homework",
       "repositoryUrl": "https://github.com/monitari/homework4",
       "demoUrl": null,
-      "previewUrl": "assets/projects/homework4-a5059e5e6f.svg",
+      "previewUrl": "assets/projects/homework4-7689157ba9.svg",
       "language": "C",
       "topics": [],
       "categories": [
@@ -430,7 +430,7 @@
       "description": "Week 3 homework ",
       "repositoryUrl": "https://github.com/monitari/homework3",
       "demoUrl": null,
-      "previewUrl": "assets/projects/homework3-b6142b4568.svg",
+      "previewUrl": "assets/projects/homework3-df388851f8.svg",
       "language": "C",
       "topics": [],
       "categories": [
@@ -447,7 +447,7 @@
       "description": "Week 2 homework ",
       "repositoryUrl": "https://github.com/monitari/homework2",
       "demoUrl": null,
-      "previewUrl": "assets/projects/homework2-0895fc5d8b.svg",
+      "previewUrl": "assets/projects/homework2-95f593e1c4.svg",
       "language": "C",
       "topics": [],
       "categories": [
@@ -464,7 +464,7 @@
       "description": "my github first project",
       "repositoryUrl": "https://github.com/monitari/firstproject",
       "demoUrl": null,
-      "previewUrl": "assets/projects/firstproject-fa05b9fc8f.svg",
+      "previewUrl": "assets/projects/firstproject-608b5e281c.svg",
       "language": "HTML",
       "topics": [],
       "categories": [
