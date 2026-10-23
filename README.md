@@ -6,7 +6,7 @@ monitari(`@monitari`)의 GitHub 프로젝트를 모아 둔 정적 포트폴리�
 
 [Sync GitHub projects](.github/workflows/sync-projects.yml) 워크플로가 다음 상황에 실행됩니다.
 
-- 매시간 17분에 자동 실행
+- 매일 오전 9시 17분(한국 시간)에 자동 실행
 - GitHub Actions의 `Run workflow` 버튼으로 수동 실행
 - 동기화 스크립트나 설정 파일이 `main`에 변경됐을 때 실행
 
