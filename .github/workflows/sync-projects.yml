@@ -23,12 +23,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
-          node-version: 22
+          node-version: 24
+          # 동기화 스크립트는 Node 내장 모듈만 쓴다.
+          package-manager-cache: false
 
       - name: Fetch public repositories
         run: node scripts/sync-projects.mjs
@@ -46,4 +48,11 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/projects.json assets/projects
           git commit -m "chore: sync GitHub projects"
-          git push
+
+          # 동기화 도중 main에 다른 push가 들어오면 그 위로 다시 얹고 재시도한다.
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            echo "Push attempt ${attempt} failed, retrying."
+            sleep $((attempt * 5))
+          done
+          exit 1
