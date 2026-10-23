@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto';
 import { mkdir, readFile, readdir, unlink, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { COVER_VERSION, renderCover } from './cover.mjs';
 
 const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(scriptDirectory, '..');
@@ -71,75 +72,8 @@ function safeSlug(value) {
     return value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'project';
 }
 
-function escapeXml(value) {
-    return String(value)
-        .replaceAll('&', '&amp;')
-        .replaceAll('<', '&lt;')
-        .replaceAll('>', '&gt;')
-        .replaceAll('"', '&quot;')
-        .replaceAll("'", '&apos;');
-}
-
-function wrapTitle(value) {
-    const normalized = value.replaceAll(/[-_]+/g, ' ').trim();
-    const words = normalized.split(/\s+/);
-    const lines = [];
-    let line = '';
-
-    for (const word of words) {
-        if (!line) {
-            line = word;
-        } else if (`${line} ${word}`.length <= 15) {
-            line = `${line} ${word}`;
-        } else {
-            lines.push(line);
-            line = word;
-        }
-    }
-
-    if (line) lines.push(line);
-    if (lines.length === 1 && lines[0].length > 15) {
-        const onlyLine = lines.shift();
-        lines.push(onlyLine.slice(0, 15), onlyLine.slice(15, 30));
-    }
-
-    return lines.slice(0, 2);
-}
-
-const languageColors = {
-    JavaScript: '#f7df1e',
-    TypeScript: '#3178c6',
-    Python: '#ffd343',
-    HTML: '#e34f26',
-    CSS: '#663399',
-    'C#': '#9b4f96',
-    C: '#a8b9cc',
-    'C++': '#00599c',
-    Java: '#e76f00',
-    CMake: '#2f8d46'
-};
-
 async function createFallbackCover(project, filePath) {
-    const accent = languageColors[project.language] || '#d9d9d9';
-    const lines = wrapTitle(project.title);
-    const titleMarkup = lines.map((line, index) => (
-        `<text x="82" y="${470 + index * 106}" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="700" letter-spacing="-2">${escapeXml(line)}</text>`
-    )).join('');
-    const category = project.categories[0] || 'code';
-    const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" role="img" aria-labelledby="title desc">
-  <title id="title">${escapeXml(project.title)} project cover</title>
-  <desc id="desc">Automatically generated project cover for ${escapeXml(project.title)}</desc>
-  <rect width="1080" height="1080" fill="#111111"/>
-  <rect x="0" y="0" width="14" height="1080" fill="${accent}"/>
-  <text x="82" y="105" fill="#a8a8a8" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="600" letter-spacing="2">@MONITARI / ${escapeXml(category.toUpperCase())}</text>
-  <circle cx="948" cy="94" r="14" fill="${accent}"/>
-  ${titleMarkup}
-  <line x1="82" y1="875" x2="998" y2="875" stroke="#363636" stroke-width="2"/>
-  <text x="82" y="948" fill="${accent}" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">${escapeXml(project.language || 'GitHub project')}</text>
-  <text x="998" y="948" fill="#737373" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="27">github.com/${escapeXml(config.owner)}</text>
-</svg>`;
-
-    await writeFile(filePath, svg, 'utf8');
+    await writeFile(filePath, renderCover(project, config.owner), 'utf8');
 }
 
 function extractImageCandidates(markdown) {
@@ -221,6 +155,7 @@ async function downloadReadmePreview(repository, baseFileName) {
 async function preparePreview(repository, project, existingFiles) {
     const slug = safeSlug(repository.name);
     const signature = createHash('sha1').update(JSON.stringify({
+        coverVersion: COVER_VERSION,
         updatedAt: project.updatedAt,
         title: project.title,
         description: project.description,
@@ -300,7 +235,7 @@ const projects = projectEntries
 const stableData = {
     profile: {
         login: profile.login,
-        name: profile.name || profile.login,
+        name: profile.login,
         bio: profile.bio || '',
         avatarUrl: profile.avatar_url,
         profileUrl: profile.html_url,

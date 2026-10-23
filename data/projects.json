@@ -15,8 +15,8 @@
   "projects": [
     {
       "name": "EGG",
-      "title": "오늘의 계란 — 살살 톡톡",
-      "description": "직접 톡 깨고 원하는 만큼 노릇하게 굽는 파스텔 2D 계란 요리 게임",
+      "title": "오늘의 계란 (살살 톡톡)",
+      "description": "계란을 톡 깨서 원하는 만큼 굽는 파스텔톤 2D 요리 게임",
       "repositoryUrl": "https://github.com/monitari/EGG",
       "demoUrl": "https://monitari.github.io/EGG/",
       "previewUrl": "assets/projects/egg-c7db249b62.svg",
@@ -34,7 +34,7 @@
     {
       "name": "WorldForge",
       "title": "WorldForge",
-      "description": "지리와 문명이 서로 영향을 주며 역사를 만드는 관찰형 시뮬레이션",
+      "description": "지형과 문명이 서로 영향을 주고받으며 역사가 쌓이는 걸 지켜보는 시뮬레이션",
       "repositoryUrl": "https://github.com/monitari/WorldForge",
       "demoUrl": "https://monitari.github.io/WorldForge/",
       "previewUrl": "assets/projects/worldforge-e1c3bad0cb.png",
@@ -52,7 +52,7 @@
     {
       "name": "Ghost",
       "title": "Ghost Maze Adventure",
-      "description": "서로 다른 특성을 가진 유령을 피해 미로를 탐험하는 웹 게임",
+      "description": "성격이 제각각인 유령들을 피해 미로를 빠져나가는 웹 게임",
       "repositoryUrl": "https://github.com/monitari/Ghost",
       "demoUrl": "https://monitari.github.io/Ghost/",
       "previewUrl": "assets/projects/ghost-d133c18f0d.png",
@@ -70,7 +70,7 @@
     {
       "name": "AI-Breakout",
       "title": "AI-Breakout",
-      "description": "머신러닝 에이전트가 벽돌깨기를 학습하도록 구성한 게임 실험",
+      "description": "벽돌깨기를 머신러닝 에이전트한테 맡겨 본 실험",
       "repositoryUrl": "https://github.com/monitari/AI-Breakout",
       "demoUrl": null,
       "previewUrl": "assets/projects/ai-breakout-7bf14722de.png",
@@ -88,7 +88,7 @@
     {
       "name": "Cell",
       "title": "Cell Evolution",
-      "description": "세포와 포식자의 관계를 통해 진화 과정을 관찰하는 시뮬레이션 게임",
+      "description": "세포와 포식자가 먹고 먹히면서 진화하는 시뮬레이션 게임",
       "repositoryUrl": "https://github.com/monitari/Cell",
       "demoUrl": null,
       "previewUrl": "assets/projects/cell-0f86c9c8e5.png",
@@ -106,7 +106,7 @@
     {
       "name": "Yutnori",
       "title": "Yutnori",
-      "description": "한국 전통 보드게임 윷놀이의 규칙과 흐름을 디지털 환경으로 옮긴 프로젝트",
+      "description": "윷놀이를 그대로 옮겨 온 디지털 보드게임",
       "repositoryUrl": "https://github.com/monitari/Yutnori",
       "demoUrl": null,
       "previewUrl": "assets/projects/yutnori-f4599dbf7c.svg",
@@ -122,8 +122,8 @@
     },
     {
       "name": "motion-lab",
-      "title": "motion-lab",
-      "description": "마우스로 만지는 인터랙티브 웹 애니메이션 82종. 홀로 카드, 리퀴드 글래스, 물리, 셰이더. 라이브러리 없이 HTML·CSS·JS만.",
+      "title": "Motion Lab",
+      "description": "마우스로 만지는 인터랙티브 웹 애니메이션 82종. 홀로 카드부터 리퀴드 글래스, 물리, 셰이더까지 라이브러리 없이 만들었다",
       "repositoryUrl": "https://github.com/monitari/motion-lab",
       "demoUrl": "https://monitari.github.io/motion-lab/",
       "previewUrl": "assets/projects/motion-lab-297bbdb2c1.svg",
@@ -139,8 +139,8 @@
     },
     {
       "name": "CO-OP_SURVIVORS",
-      "title": "CO-OP_SURVIVORS",
-      "description": "🐾 사슬로 묶인 두 고양이가 밤의 옥상을 지키는 2인 협동 서바이버라이크 (Godot 4.7.2, 2026 인디유 출품작) · A 2-player chained co-op survivor-like",
+      "title": "CO-OP SURVIVORS",
+      "description": "사슬로 묶인 고양이 두 마리가 밤의 옥상을 지키는 2인 협동 서바이버라이크. Godot 4로 만든 2026 인디유 출품작",
       "repositoryUrl": "https://github.com/monitari/CO-OP_SURVIVORS",
       "demoUrl": "https://github.com/monitari/CO-OP_SURVIVORS/releases/latest",
       "previewUrl": "assets/projects/co-op-survivors-4accf7c5e0.png",
@@ -169,8 +169,8 @@
     },
     {
       "name": "KOREA_ELECTION",
-      "title": "KOREA_ELECTION",
-      "description": "An interactive map-based archive of South Korean presidential election results from the 13th to 21st elections.",
+      "title": "KOREA ELECTION",
+      "description": "13대부터 21대까지 대통령 선거 결과를 지도로 훑어보는 아카이브",
       "repositoryUrl": "https://github.com/monitari/KOREA_ELECTION",
       "demoUrl": null,
       "previewUrl": "assets/projects/korea-election-4f1d33dc0c.png",
@@ -187,7 +187,7 @@
     {
       "name": "SWINGBY",
       "title": "SWINGBY",
-      "description": "SWINGBY is a gravity swing-by game where you launch a spaceship using gravitational sources within constellations and complete its trajectory. Break through 12 constellations with precise aiming and speed control, and challenge the all-time record on the Infinite Voyage. (used CODEX and CLAUDE Code)",
+      "description": "별자리 속 중력원을 이용해 우주선을 스윙바이로 날려 보내는 게임. 별자리 12개를 돌파하고 무한 항해 기록에 도전한다",
       "repositoryUrl": "https://github.com/monitari/SWINGBY",
       "demoUrl": null,
       "previewUrl": "assets/projects/swingby-e3516e44cf.png",
