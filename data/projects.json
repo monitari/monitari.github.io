@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T14:19:39.427Z",
+  "generatedAt": "2026-10-24T04:38:38.075Z",
   "profile": {
     "login": "monitari",
     "name": "monitari",
@@ -119,6 +119,23 @@
       "forks": 0,
       "updatedAt": "2025-01-20T17:19:38Z",
       "featured": true
+    },
+    {
+      "name": "saebyeok-mart",
+      "title": "saebyeok-mart",
+      "description": "새벽 편의점 — 손님과 알바생이 살고 기억하는 관찰형 픽셀 편의점",
+      "repositoryUrl": "https://github.com/monitari/saebyeok-mart",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/saebyeok-mart-75633a8b07.svg",
+      "language": "JavaScript",
+      "topics": [],
+      "categories": [
+        "web"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-10-23T13:43:00Z",
+      "featured": false
     },
     {
       "name": "motion-lab",
