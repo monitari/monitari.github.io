@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T04:38:38.075Z",
+  "generatedAt": "2026-10-29T05:50:00.738Z",
   "profile": {
     "login": "monitari",
     "name": "monitari",
@@ -10,7 +10,7 @@
     "company": "Chungbuk National University",
     "followers": 2,
     "following": 2,
-    "publicRepositories": 32
+    "publicRepositories": 31
   },
   "projects": [
     {
@@ -199,23 +199,6 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-08-27T15:22:48Z",
-      "featured": false
-    },
-    {
-      "name": "SWINGBY",
-      "title": "SWINGBY",
-      "description": "별자리 속 중력원을 이용해 우주선을 스윙바이로 날려 보내는 게임. 별자리 12개를 돌파하고 무한 항해 기록에 도전한다",
-      "repositoryUrl": "https://github.com/monitari/SWINGBY",
-      "demoUrl": null,
-      "previewUrl": "assets/projects/swingby-ba02e00005.png",
-      "language": "GDScript",
-      "topics": [],
-      "categories": [
-        "game"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2026-08-27T15:22:09Z",
       "featured": false
     },
     {
