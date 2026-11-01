@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T05:50:00.738Z",
+  "generatedAt": "2026-11-01T06:08:16.282Z",
   "profile": {
     "login": "monitari",
     "name": "monitari",
@@ -8,9 +8,9 @@
     "profileUrl": "https://github.com/monitari",
     "location": "Cheonan, South Korea",
     "company": "Chungbuk National University",
-    "followers": 2,
+    "followers": 1,
     "following": 2,
-    "publicRepositories": 31
+    "publicRepositories": 32
   },
   "projects": [
     {
@@ -119,6 +119,32 @@
       "forks": 0,
       "updatedAt": "2025-01-20T17:19:38Z",
       "featured": true
+    },
+    {
+      "name": "overstack",
+      "title": "overstack",
+      "description": "회로를 짜고 펄스를 쏴서 연쇄로 점수를 터뜨리는 픽셀 로그라이크 퍼즐 웹게임",
+      "repositoryUrl": "https://github.com/monitari/overstack",
+      "demoUrl": "https://monitari.github.io/overstack/",
+      "previewUrl": "assets/projects/overstack-5b97c755a3.png",
+      "language": "TypeScript",
+      "topics": [
+        "game",
+        "pixel-art",
+        "puzzle-game",
+        "roguelike",
+        "typescript",
+        "vite",
+        "web-game"
+      ],
+      "categories": [
+        "game",
+        "web"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-10-31T13:38:23Z",
+      "featured": false
     },
     {
       "name": "saebyeok-mart",
