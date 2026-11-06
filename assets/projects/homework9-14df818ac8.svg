@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" role="img" aria-labelledby="title">
+  <title id="title">homework9</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4e5968"/>
+      <stop offset="1" stop-color="#8b95a1"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.45"/>
+    </linearGradient>
+    <filter id="frost" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="46"/></filter>
+    <clipPath id="pane"><rect x="290" y="290" width="500" height="500" rx="136"/></clipPath>
+    <g id="orbs">
+      <circle cx="350" cy="370" r="190" fill="#e5e8eb"/>
+      <circle cx="760" cy="720" r="230" fill="#333d4b"/>
+    </g>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <use href="#orbs"/>
+  <g clip-path="url(#pane)">
+    <rect width="1080" height="1080" fill="url(#bg)"/>
+    <use href="#orbs" filter="url(#frost)"/>
+    <rect x="290" y="290" width="500" height="500" fill="#ffffff" fill-opacity="0.2"/>
+  </g>
+  <rect x="290" y="290" width="500" height="500" rx="136" fill="none" stroke="url(#edge)" stroke-width="5"/>
+  <text x="540" y="608.6" fill="#ffffff" text-anchor="middle" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Segoe UI', sans-serif" font-size="196" font-weight="800" letter-spacing="-3.92">H9</text>
+</svg>

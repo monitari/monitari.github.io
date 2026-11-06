@@ -17,51 +17,346 @@
       "title": "오늘의 계란 (살살 톡톡)",
       "description": "계란을 톡 깨서 원하는 만큼 굽는 파스텔톤 2D 요리 게임",
       "categories": ["game", "web"],
-      "demoUrl": "https://monitari.github.io/EGG/"
+      "demoUrl": "https://monitari.github.io/EGG/",
+      "translations": {
+        "en": {
+          "title": "Today's Egg",
+          "description": "Crack an egg and fry it as long as you like. A pastel 2D cooking game."
+        },
+        "ja": {
+          "title": "今日のたまご",
+          "description": "卵をコツンと割って好みの焼き加減に仕上げる、パステル調の2D料理ゲーム"
+        }
+      }
     },
     "WorldForge": {
       "description": "지형과 문명이 서로 영향을 주고받으며 역사가 쌓이는 걸 지켜보는 시뮬레이션",
       "categories": ["simulation", "web"],
-      "demoUrl": "https://monitari.github.io/WorldForge/"
+      "demoUrl": "https://monitari.github.io/WorldForge/",
+      "translations": {
+        "en": {
+          "description": "Watch history pile up as terrain and civilizations shape each other. An observation sim."
+        },
+        "ja": {
+          "description": "地形と文明が影響し合い、歴史が積み重なっていくのを眺める観察型シミュレーション"
+        }
+      }
     },
     "Ghost": {
       "title": "Ghost Maze Adventure",
       "description": "성격이 제각각인 유령들을 피해 미로를 빠져나가는 웹 게임",
       "categories": ["game", "web"],
-      "demoUrl": "https://monitari.github.io/Ghost/"
+      "demoUrl": "https://monitari.github.io/Ghost/",
+      "translations": {
+        "en": {
+          "description": "Get out of a maze while dodging ghosts that each behave differently. A web game."
+        },
+        "ja": {
+          "description": "性格の違う幽霊をかわして迷路を抜け出すWebゲーム"
+        }
+      }
     },
     "AI-Breakout": {
       "description": "벽돌깨기를 머신러닝 에이전트한테 맡겨 본 실험",
-      "categories": ["game", "ai"]
+      "categories": ["game", "ai"],
+      "translations": {
+        "en": {
+          "description": "An experiment that hands Breakout over to a machine learning agent."
+        },
+        "ja": {
+          "description": "ブロック崩しを機械学習エージェントに任せてみた実験"
+        }
+      }
     },
     "Cell": {
       "title": "Cell Evolution",
       "description": "세포와 포식자가 먹고 먹히면서 진화하는 시뮬레이션 게임",
-      "categories": ["game", "simulation"]
+      "categories": ["game", "simulation"],
+      "translations": {
+        "en": {
+          "description": "A simulation game where cells and predators eat each other and evolve."
+        },
+        "ja": {
+          "description": "細胞と捕食者が食べて食べられて進化するシミュレーションゲーム"
+        }
+      }
     },
     "Yutnori": {
       "description": "윷놀이를 그대로 옮겨 온 디지털 보드게임",
-      "categories": ["game"]
+      "categories": ["game"],
+      "translations": {
+        "en": {
+          "description": "Yutnori, the Korean board game, moved to a screen as it is."
+        },
+        "ja": {
+          "title": "ユンノリ",
+          "description": "韓国のボードゲーム、ユンノリをそのまま移したデジタル版"
+        }
+      }
     },
     "motion-lab": {
       "title": "Motion Lab",
       "description": "마우스로 만지는 인터랙티브 웹 애니메이션 82종. 홀로 카드부터 리퀴드 글래스, 물리, 셰이더까지 라이브러리 없이 만들었다",
-      "categories": ["web"]
+      "categories": ["web"],
+      "translations": {
+        "en": {
+          "description": "82 interactive web animations you play with your mouse, from holo cards to liquid glass, physics and shaders. No libraries."
+        },
+        "ja": {
+          "description": "マウスで触れるインタラクティブなWebアニメーション82種。ホロカードからリキッドグラス、物理、シェーダーまでライブラリなしで作った"
+        }
+      }
     },
     "CO-OP_SURVIVORS": {
       "title": "CO-OP SURVIVORS",
       "description": "사슬로 묶인 고양이 두 마리가 밤의 옥상을 지키는 2인 협동 서바이버라이크. Godot 4로 만든 2026 인디유 출품작",
-      "categories": ["game"]
+      "categories": ["game"],
+      "translations": {
+        "en": {
+          "description": "Two cats chained together guard a rooftop at night. A 2-player co-op survivor-like made with Godot 4."
+        },
+        "ja": {
+          "description": "鎖でつながれた2匹の猫が夜の屋上を守る、2人協力サバイバーライク。Godot 4製"
+        }
+      }
     },
     "KOREA_ELECTION": {
       "title": "KOREA ELECTION",
       "description": "13대부터 21대까지 대통령 선거 결과를 지도로 훑어보는 아카이브",
-      "categories": ["web"]
+      "categories": ["web"],
+      "translations": {
+        "en": {
+          "description": "A map archive of South Korean presidential election results, from the 13th to the 21st."
+        },
+        "ja": {
+          "description": "第13代から第21代までの韓国大統領選挙の結果を地図で見られるアーカイブ"
+        }
+      }
     },
     "SWINGBY": {
       "title": "SWINGBY",
       "description": "별자리 속 중력원을 이용해 우주선을 스윙바이로 날려 보내는 게임. 별자리 12개를 돌파하고 무한 항해 기록에 도전한다",
-      "categories": ["game"]
+      "categories": ["game"],
+      "translations": {
+        "en": {
+          "description": "Slingshot a spaceship around gravity sources inside constellations. Clear 12 of them, then chase the Infinite Voyage record."
+        },
+        "ja": {
+          "description": "星座の中の重力源を使って宇宙船をスイングバイで飛ばすゲーム。12の星座を突破し、無限航海の記録に挑む"
+        }
+      }
+    },
+    "midelec-2026": {
+      "description": "2026 미국 중간선거 지도 대시보드",
+      "translations": {
+        "en": {
+          "description": "A map dashboard for the 2026 US midterm elections."
+        },
+        "ja": {
+          "description": "2026年アメリカ中間選挙の地図ダッシュボード"
+        }
+      }
+    },
+    "overstack": {
+      "description": "회로를 짜고 펄스를 쏴서 연쇄로 점수를 터뜨리는 픽셀 로그라이크 퍼즐 웹게임",
+      "translations": {
+        "en": {
+          "description": "Wire a circuit, fire a pulse and chain your way to big scores. A pixel roguelike puzzle for the web."
+        },
+        "ja": {
+          "description": "回路を組んでパルスを撃ち、連鎖でスコアを叩き出すピクセルローグライクのパズルWebゲーム"
+        }
+      }
+    },
+    "saebyeok-mart": {
+      "title": "새벽 편의점",
+      "description": "손님과 알바생이 살아가고 기억하는 관찰형 픽셀 편의점",
+      "translations": {
+        "en": {
+          "title": "Saebyeok Mart",
+          "description": "An observation sim of a pixel convenience store where customers and part-timers live and remember."
+        },
+        "ja": {
+          "title": "夜明けのコンビニ",
+          "description": "客とアルバイトが暮らし、記憶していく観察型ピクセルコンビニ"
+        }
+      }
+    },
+    "dcinside": {
+      "description": "DC인사이드 갤러리 글을 Python requests와 BeautifulSoup로 긁어 보는 웹 스크레이핑 예제",
+      "translations": {
+        "en": {
+          "description": "Scraping DC Inside gallery posts with Python requests and BeautifulSoup."
+        },
+        "ja": {
+          "description": "DCインサイドのギャラリー投稿をPythonのrequestsとBeautifulSoupでスクレイピングする例"
+        }
+      }
+    },
+    "Pandemic": {
+      "description": "전염병 확산 시뮬레이션",
+      "translations": {
+        "en": {
+          "description": "A pandemic simulation."
+        },
+        "ja": {
+          "description": "感染症の拡大シミュレーション"
+        }
+      }
+    },
+    "komantle": {
+      "description": "꼬맨틀에서 영감을 받은 단어 유사도 추측 게임. 핵심 기능을 JavaScript로 따라 만들었다",
+      "translations": {
+        "en": {
+          "description": "A word similarity guessing game inspired by the Korean site 꼬맨틀, rebuilt in JavaScript."
+        },
+        "ja": {
+          "description": "韓国のサイト꼬맨틀に着想を得た単語類似度当てゲーム。中核機能をJavaScriptで再現した"
+        }
+      }
+    },
+    "map": {
+      "description": "가상 국가의 선거 지도를 SVG로 만든 프로젝트",
+      "translations": {
+        "en": {
+          "description": "An SVG election map of a fantasy nation."
+        },
+        "ja": {
+          "description": "架空の国の選挙地図をSVGで作ったプロジェクト"
+        }
+      }
+    },
+    "LittleWARS-Unity": {
+      "description": "Unity와 Bolt 비주얼 스크립팅으로 단계별로 만든 캐주얼 디펜스 게임",
+      "translations": {
+        "en": {
+          "description": "A casual defense game built step by step with Unity and Bolt visual scripting."
+        },
+        "ja": {
+          "description": "UnityとBoltのビジュアルスクリプティングで段階的に作ったカジュアルディフェンスゲーム"
+        }
+      }
+    },
+    "JELLY-Unity": {
+      "description": "골드메탈의 Unity 강좌를 따라 단계별로 만든 방치형 게임",
+      "translations": {
+        "en": {
+          "description": "An idle game built step by step by following 골드메탈's Unity tutorials."
+        },
+        "ja": {
+          "description": "골드메탈のUnity講座に沿って段階的に作った放置ゲーム"
+        }
+      }
+    },
+    "clue": {
+      "description": "살인 사건의 범인을 추리하는 보드게임 클루도",
+      "translations": {
+        "en": {
+          "description": "Cluedo, the murder mystery board game known as Clue in North America."
+        },
+        "ja": {
+          "description": "殺人事件の犯人を推理するボードゲーム、クルード"
+        }
+      }
+    },
+    "firstproject": {
+      "description": "GitHub 첫 프로젝트",
+      "translations": {
+        "en": {
+          "description": "My first GitHub project."
+        },
+        "ja": {
+          "description": "GitHubでの最初のプロジェクト"
+        }
+      }
+    },
+    "homework2": {
+      "description": "2주차 과제",
+      "translations": {
+        "en": {
+          "description": "Week 2 homework"
+        },
+        "ja": {
+          "description": "第2週の課題"
+        }
+      }
+    },
+    "homework3": {
+      "description": "3주차 과제",
+      "translations": {
+        "en": {
+          "description": "Week 3 homework"
+        },
+        "ja": {
+          "description": "第3週の課題"
+        }
+      }
+    },
+    "homework4": {
+      "description": "4주차 과제",
+      "translations": {
+        "en": {
+          "description": "Week 4 homework"
+        },
+        "ja": {
+          "description": "第4週の課題"
+        }
+      }
+    },
+    "homework5": {
+      "description": "5주차 과제",
+      "translations": {
+        "en": {
+          "description": "Week 5 homework"
+        },
+        "ja": {
+          "description": "第5週の課題"
+        }
+      }
+    },
+    "homework6": {
+      "description": "6주차 과제",
+      "translations": {
+        "en": {
+          "description": "Week 6 homework"
+        },
+        "ja": {
+          "description": "第6週の課題"
+        }
+      }
+    },
+    "homework7": {
+      "description": "7주차 과제",
+      "translations": {
+        "en": {
+          "description": "Week 7 homework"
+        },
+        "ja": {
+          "description": "第7週の課題"
+        }
+      }
+    },
+    "homework8": {
+      "description": "8주차 과제 (사실은 12주차)",
+      "translations": {
+        "en": {
+          "description": "Week 8 homework (actually 12)"
+        },
+        "ja": {
+          "description": "第8週の課題 (実は第12週)"
+        }
+      }
+    },
+    "homework9": {
+      "description": "9주차 과제",
+      "translations": {
+        "en": {
+          "description": "Week 9 homework"
+        },
+        "ja": {
+          "description": "第9週の課題"
+        }
+      }
     }
   }
 }

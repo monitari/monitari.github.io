@@ -73,7 +73,7 @@ function safeSlug(value) {
 }
 
 async function createFallbackCover(project, filePath) {
-    await writeFile(filePath, renderCover(project, config.owner), 'utf8');
+    await writeFile(filePath, renderCover(project), 'utf8');
 }
 
 function extractImageCandidates(markdown) {
@@ -207,8 +207,12 @@ const projectEntries = repositories
             stars: repository.stargazers_count,
             forks: repository.forks_count,
             updatedAt,
+            createdAt: repository.created_at,
+            size: repository.size,
             featured: featured.includes(repository.name)
         };
+
+        if (override.translations) project.translations = override.translations;
 
         return { repository, project };
     });

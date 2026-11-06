@@ -9,6 +9,7 @@ on:
     paths:
       - data/project-config.json
       - scripts/sync-projects.mjs
+      - scripts/cover.mjs
       - .github/workflows/sync-projects.yml
 
 permissions:

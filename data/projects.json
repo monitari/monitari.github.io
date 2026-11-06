@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T06:49:01.210Z",
+  "generatedAt": "2026-11-06T12:29:29.604Z",
   "profile": {
     "login": "monitari",
     "name": "monitari",
@@ -19,7 +19,7 @@
       "description": "계란을 톡 깨서 원하는 만큼 굽는 파스텔톤 2D 요리 게임",
       "repositoryUrl": "https://github.com/monitari/EGG",
       "demoUrl": "https://monitari.github.io/EGG/",
-      "previewUrl": "assets/projects/egg-6055492bdd.svg",
+      "previewUrl": "assets/projects/egg-4060556641.svg",
       "language": "JavaScript",
       "topics": [],
       "categories": [
@@ -29,7 +29,19 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-08-19T06:47:27Z",
-      "featured": true
+      "createdAt": "2026-08-19T06:31:59Z",
+      "size": 680,
+      "featured": true,
+      "translations": {
+        "en": {
+          "title": "Today's Egg",
+          "description": "Crack an egg and fry it as long as you like. A pastel 2D cooking game."
+        },
+        "ja": {
+          "title": "今日のたまご",
+          "description": "卵をコツンと割って好みの焼き加減に仕上げる、パステル調の2D料理ゲーム"
+        }
+      }
     },
     {
       "name": "WorldForge",
@@ -37,7 +49,7 @@
       "description": "지형과 문명이 서로 영향을 주고받으며 역사가 쌓이는 걸 지켜보는 시뮬레이션",
       "repositoryUrl": "https://github.com/monitari/WorldForge",
       "demoUrl": "https://monitari.github.io/WorldForge/",
-      "previewUrl": "assets/projects/worldforge-3fc9bace1c.png",
+      "previewUrl": "assets/projects/worldforge-0f2b56c8ed.png",
       "language": "TypeScript",
       "topics": [],
       "categories": [
@@ -47,7 +59,17 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-08-19T06:34:24Z",
-      "featured": true
+      "createdAt": "2026-08-11T15:31:01Z",
+      "size": 151,
+      "featured": true,
+      "translations": {
+        "en": {
+          "description": "Watch history pile up as terrain and civilizations shape each other. An observation sim."
+        },
+        "ja": {
+          "description": "地形と文明が影響し合い、歴史が積み重なっていくのを眺める観察型シミュレーション"
+        }
+      }
     },
     {
       "name": "Ghost",
@@ -55,7 +77,7 @@
       "description": "성격이 제각각인 유령들을 피해 미로를 빠져나가는 웹 게임",
       "repositoryUrl": "https://github.com/monitari/Ghost",
       "demoUrl": "https://monitari.github.io/Ghost/",
-      "previewUrl": "assets/projects/ghost-661550ed0a.png",
+      "previewUrl": "assets/projects/ghost-b6fe390445.png",
       "language": "JavaScript",
       "topics": [],
       "categories": [
@@ -65,7 +87,17 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-02-24T17:09:01Z",
-      "featured": true
+      "createdAt": "2025-01-04T15:11:47Z",
+      "size": 3087,
+      "featured": true,
+      "translations": {
+        "en": {
+          "description": "Get out of a maze while dodging ghosts that each behave differently. A web game."
+        },
+        "ja": {
+          "description": "性格の違う幽霊をかわして迷路を抜け出すWebゲーム"
+        }
+      }
     },
     {
       "name": "AI-Breakout",
@@ -73,7 +105,7 @@
       "description": "벽돌깨기를 머신러닝 에이전트한테 맡겨 본 실험",
       "repositoryUrl": "https://github.com/monitari/AI-Breakout",
       "demoUrl": null,
-      "previewUrl": "assets/projects/ai-breakout-c71f65bc10.png",
+      "previewUrl": "assets/projects/ai-breakout-92582f6309.png",
       "language": "Python",
       "topics": [],
       "categories": [
@@ -83,7 +115,17 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2025-01-29T09:38:05Z",
-      "featured": true
+      "createdAt": "2025-01-26T12:24:08Z",
+      "size": 570,
+      "featured": true,
+      "translations": {
+        "en": {
+          "description": "An experiment that hands Breakout over to a machine learning agent."
+        },
+        "ja": {
+          "description": "ブロック崩しを機械学習エージェントに任せてみた実験"
+        }
+      }
     },
     {
       "name": "Cell",
@@ -91,7 +133,7 @@
       "description": "세포와 포식자가 먹고 먹히면서 진화하는 시뮬레이션 게임",
       "repositoryUrl": "https://github.com/monitari/Cell",
       "demoUrl": null,
-      "previewUrl": "assets/projects/cell-eb9d67da6c.png",
+      "previewUrl": "assets/projects/cell-7fb396edd1.png",
       "language": "Python",
       "topics": [],
       "categories": [
@@ -101,7 +143,17 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2025-01-24T12:36:35Z",
-      "featured": true
+      "createdAt": "2025-01-13T16:11:52Z",
+      "size": 13,
+      "featured": true,
+      "translations": {
+        "en": {
+          "description": "A simulation game where cells and predators eat each other and evolve."
+        },
+        "ja": {
+          "description": "細胞と捕食者が食べて食べられて進化するシミュレーションゲーム"
+        }
+      }
     },
     {
       "name": "Yutnori",
@@ -109,7 +161,7 @@
       "description": "윷놀이를 그대로 옮겨 온 디지털 보드게임",
       "repositoryUrl": "https://github.com/monitari/Yutnori",
       "demoUrl": null,
-      "previewUrl": "assets/projects/yutnori-afa69fbd31.svg",
+      "previewUrl": "assets/projects/yutnori-d5cb8471a2.svg",
       "language": "C#",
       "topics": [],
       "categories": [
@@ -118,7 +170,18 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2025-01-20T17:19:38Z",
-      "featured": true
+      "createdAt": "2025-01-18T12:57:58Z",
+      "size": 4691,
+      "featured": true,
+      "translations": {
+        "en": {
+          "description": "Yutnori, the Korean board game, moved to a screen as it is."
+        },
+        "ja": {
+          "title": "ユンノリ",
+          "description": "韓国のボードゲーム、ユンノリをそのまま移したデジタル版"
+        }
+      }
     },
     {
       "name": "midelec-2026",
@@ -126,7 +189,7 @@
       "description": "2026 미국 중간선거 지도 대시보드",
       "repositoryUrl": "https://github.com/monitari/midelec-2026",
       "demoUrl": null,
-      "previewUrl": "assets/projects/midelec-2026-585b422501.svg",
+      "previewUrl": "assets/projects/midelec-2026-1cac847154.svg",
       "language": "TypeScript",
       "topics": [],
       "categories": [
@@ -135,7 +198,17 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-11-05T11:48:19Z",
-      "featured": false
+      "createdAt": "2026-11-04T14:46:10Z",
+      "size": 755,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "A map dashboard for the 2026 US midterm elections."
+        },
+        "ja": {
+          "description": "2026年アメリカ中間選挙の地図ダッシュボード"
+        }
+      }
     },
     {
       "name": "overstack",
@@ -143,7 +216,7 @@
       "description": "회로를 짜고 펄스를 쏴서 연쇄로 점수를 터뜨리는 픽셀 로그라이크 퍼즐 웹게임",
       "repositoryUrl": "https://github.com/monitari/overstack",
       "demoUrl": "https://monitari.github.io/overstack/",
-      "previewUrl": "assets/projects/overstack-5b97c755a3.png",
+      "previewUrl": "assets/projects/overstack-7e770ea741.png",
       "language": "TypeScript",
       "topics": [
         "game",
@@ -161,15 +234,25 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-10-31T13:38:23Z",
-      "featured": false
+      "createdAt": "2026-10-31T13:38:15Z",
+      "size": 3297,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "Wire a circuit, fire a pulse and chain your way to big scores. A pixel roguelike puzzle for the web."
+        },
+        "ja": {
+          "description": "回路を組んでパルスを撃ち、連鎖でスコアを叩き出すピクセルローグライクのパズルWebゲーム"
+        }
+      }
     },
     {
       "name": "saebyeok-mart",
-      "title": "saebyeok-mart",
-      "description": "새벽 편의점 — 손님과 알바생이 살고 기억하는 관찰형 픽셀 편의점",
+      "title": "새벽 편의점",
+      "description": "손님과 알바생이 살아가고 기억하는 관찰형 픽셀 편의점",
       "repositoryUrl": "https://github.com/monitari/saebyeok-mart",
       "demoUrl": null,
-      "previewUrl": "assets/projects/saebyeok-mart-75633a8b07.svg",
+      "previewUrl": "assets/projects/saebyeok-mart-5ed3335b07.svg",
       "language": "JavaScript",
       "topics": [],
       "categories": [
@@ -178,7 +261,19 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-10-23T13:43:00Z",
-      "featured": false
+      "createdAt": "2026-10-23T13:32:22Z",
+      "size": 8991,
+      "featured": false,
+      "translations": {
+        "en": {
+          "title": "Saebyeok Mart",
+          "description": "An observation sim of a pixel convenience store where customers and part-timers live and remember."
+        },
+        "ja": {
+          "title": "夜明けのコンビニ",
+          "description": "客とアルバイトが暮らし、記憶していく観察型ピクセルコンビニ"
+        }
+      }
     },
     {
       "name": "motion-lab",
@@ -186,7 +281,7 @@
       "description": "마우스로 만지는 인터랙티브 웹 애니메이션 82종. 홀로 카드부터 리퀴드 글래스, 물리, 셰이더까지 라이브러리 없이 만들었다",
       "repositoryUrl": "https://github.com/monitari/motion-lab",
       "demoUrl": "https://monitari.github.io/motion-lab/",
-      "previewUrl": "assets/projects/motion-lab-324067d754.svg",
+      "previewUrl": "assets/projects/motion-lab-d8d50cc386.svg",
       "language": "JavaScript",
       "topics": [],
       "categories": [
@@ -195,7 +290,17 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-10-19T16:33:28Z",
-      "featured": false
+      "createdAt": "2026-10-19T11:36:50Z",
+      "size": 1837,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "82 interactive web animations you play with your mouse, from holo cards to liquid glass, physics and shaders. No libraries."
+        },
+        "ja": {
+          "description": "マウスで触れるインタラクティブなWebアニメーション82種。ホロカードからリキッドグラス、物理、シェーダーまでライブラリなしで作った"
+        }
+      }
     },
     {
       "name": "CO-OP_SURVIVORS",
@@ -203,7 +308,7 @@
       "description": "사슬로 묶인 고양이 두 마리가 밤의 옥상을 지키는 2인 협동 서바이버라이크. Godot 4로 만든 2026 인디유 출품작",
       "repositoryUrl": "https://github.com/monitari/CO-OP_SURVIVORS",
       "demoUrl": "https://github.com/monitari/CO-OP_SURVIVORS/releases/latest",
-      "previewUrl": "assets/projects/co-op-survivors-16a9dc30e9.png",
+      "previewUrl": "assets/projects/co-op-survivors-29a2a54f37.png",
       "language": "GDScript",
       "topics": [
         "2d-game",
@@ -225,7 +330,17 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-10-15T13:32:56Z",
-      "featured": false
+      "createdAt": "2026-09-04T00:34:09Z",
+      "size": 224444,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "Two cats chained together guard a rooftop at night. A 2-player co-op survivor-like made with Godot 4."
+        },
+        "ja": {
+          "description": "鎖でつながれた2匹の猫が夜の屋上を守る、2人協力サバイバーライク。Godot 4製"
+        }
+      }
     },
     {
       "name": "KOREA_ELECTION",
@@ -233,7 +348,7 @@
       "description": "13대부터 21대까지 대통령 선거 결과를 지도로 훑어보는 아카이브",
       "repositoryUrl": "https://github.com/monitari/KOREA_ELECTION",
       "demoUrl": null,
-      "previewUrl": "assets/projects/korea-election-d46a1580a8.png",
+      "previewUrl": "assets/projects/korea-election-147a208f17.png",
       "language": "HTML",
       "topics": [],
       "categories": [
@@ -242,15 +357,25 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-08-27T15:22:48Z",
-      "featured": false
+      "createdAt": "2026-08-27T15:16:59Z",
+      "size": 3613,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "A map archive of South Korean presidential election results, from the 13th to the 21st."
+        },
+        "ja": {
+          "description": "第13代から第21代までの韓国大統領選挙の結果を地図で見られるアーカイブ"
+        }
+      }
     },
     {
       "name": "dcinside",
       "title": "dcinside",
-      "description": "This project demonstrates web scraping of DC Inside gallery posts using Python's requests and BeautifulSoup.",
+      "description": "DC인사이드 갤러리 글을 Python requests와 BeautifulSoup로 긁어 보는 웹 스크레이핑 예제",
       "repositoryUrl": "https://github.com/monitari/dcinside",
       "demoUrl": null,
-      "previewUrl": "assets/projects/dcinside-9a628bec1e.svg",
+      "previewUrl": "assets/projects/dcinside-fa90863366.svg",
       "language": "HTML",
       "topics": [],
       "categories": [
@@ -259,15 +384,25 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2025-02-03T06:36:32Z",
-      "featured": false
+      "createdAt": "2025-01-11T05:37:03Z",
+      "size": 3611,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "Scraping DC Inside gallery posts with Python requests and BeautifulSoup."
+        },
+        "ja": {
+          "description": "DCインサイドのギャラリー投稿をPythonのrequestsとBeautifulSoupでスクレイピングする例"
+        }
+      }
     },
     {
       "name": "Pandemic",
       "title": "Pandemic",
-      "description": "Pandemic simulation",
+      "description": "전염병 확산 시뮬레이션",
       "repositoryUrl": "https://github.com/monitari/Pandemic",
       "demoUrl": null,
-      "previewUrl": "assets/projects/pandemic-606cfe3aff.svg",
+      "previewUrl": "assets/projects/pandemic-b3b1d4aea6.svg",
       "language": "Python",
       "topics": [],
       "categories": [
@@ -276,15 +411,25 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2025-01-26T11:38:52Z",
-      "featured": false
+      "createdAt": "2025-01-25T14:15:00Z",
+      "size": 10,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "A pandemic simulation."
+        },
+        "ja": {
+          "description": "感染症の拡大シミュレーション"
+        }
+      }
     },
     {
       "name": "komantle",
       "title": "komantle",
-      "description": "KOMANTLE is a word similarity guessing game inspired by the original 꼬맨틀 site. This project uses JavaScript to replicate the core functionality of the game.",
+      "description": "꼬맨틀에서 영감을 받은 단어 유사도 추측 게임. 핵심 기능을 JavaScript로 따라 만들었다",
       "repositoryUrl": "https://github.com/monitari/komantle",
       "demoUrl": null,
-      "previewUrl": "assets/projects/komantle-3e5a8dc035.png",
+      "previewUrl": "assets/projects/komantle-6db8675928.png",
       "language": "JavaScript",
       "topics": [],
       "categories": [
@@ -294,15 +439,25 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2025-01-04T15:09:34Z",
-      "featured": false
+      "createdAt": "2025-01-04T13:48:20Z",
+      "size": 15,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "A word similarity guessing game inspired by the Korean site 꼬맨틀, rebuilt in JavaScript."
+        },
+        "ja": {
+          "description": "韓国のサイト꼬맨틀に着想を得た単語類似度当てゲーム。中核機能をJavaScriptで再現した"
+        }
+      }
     },
     {
       "name": "map",
       "title": "map",
-      "description": "making SVG election map of Fantasy Nation",
+      "description": "가상 국가의 선거 지도를 SVG로 만든 프로젝트",
       "repositoryUrl": "https://github.com/monitari/map",
       "demoUrl": null,
-      "previewUrl": "assets/projects/map-2fb80d3dfc.png",
+      "previewUrl": "assets/projects/map-787a5a9757.png",
       "language": "HTML",
       "topics": [],
       "categories": [
@@ -311,15 +466,25 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2025-01-04T13:36:42Z",
-      "featured": false
+      "createdAt": "2024-10-06T05:42:18Z",
+      "size": 28840,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "An SVG election map of a fantasy nation."
+        },
+        "ja": {
+          "description": "架空の国の選挙地図をSVGで作ったプロジェクト"
+        }
+      }
     },
     {
       "name": "LittleWARS-Unity",
       "title": "LittleWARS-Unity",
-      "description": "This project is a step-by-step implementation of a Casual Defense Game using Unity and Unity Bolt (Visual Scripting).",
+      "description": "Unity와 Bolt 비주얼 스크립팅으로 단계별로 만든 캐주얼 디펜스 게임",
       "repositoryUrl": "https://github.com/monitari/LittleWARS-Unity",
       "demoUrl": null,
-      "previewUrl": "assets/projects/littlewars-unity-7bf54998a8.png",
+      "previewUrl": "assets/projects/littlewars-unity-c9cbfb27d9.png",
       "language": "CMake",
       "topics": [],
       "categories": [
@@ -328,15 +493,25 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2025-01-02T16:31:15Z",
-      "featured": false
+      "createdAt": "2024-12-31T12:38:06Z",
+      "size": 69565,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "A casual defense game built step by step with Unity and Bolt visual scripting."
+        },
+        "ja": {
+          "description": "UnityとBoltのビジュアルスクリプティングで段階的に作ったカジュアルディフェンスゲーム"
+        }
+      }
     },
     {
       "name": "JELLY-Unity",
       "title": "JELLY-Unity",
-      "description": "This project is a step-by-step implementation of an idle game, following the Unity tutorial series by 골드메탈.",
+      "description": "골드메탈의 Unity 강좌를 따라 단계별로 만든 방치형 게임",
       "repositoryUrl": "https://github.com/monitari/JELLY-Unity",
       "demoUrl": null,
-      "previewUrl": "assets/projects/jelly-unity-7d5c71d79a.png",
+      "previewUrl": "assets/projects/jelly-unity-d4c64070bd.png",
       "language": "HTML",
       "topics": [],
       "categories": [
@@ -346,15 +521,25 @@
       "stars": 1,
       "forks": 0,
       "updatedAt": "2025-01-02T12:37:24Z",
-      "featured": false
+      "createdAt": "2024-12-29T04:58:54Z",
+      "size": 56331,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "An idle game built step by step by following 골드메탈's Unity tutorials."
+        },
+        "ja": {
+          "description": "골드메탈のUnity講座に沿って段階的に作った放置ゲーム"
+        }
+      }
     },
     {
       "name": "clue",
       "title": "clue",
-      "description": "Cluedo known as Clue in North America, is a murder mystery game for three to six players (depending on editions) that was devised in 1943 by British board game designer Anthony E. Pratt.",
+      "description": "살인 사건의 범인을 추리하는 보드게임 클루도",
       "repositoryUrl": "https://github.com/monitari/clue",
       "demoUrl": null,
-      "previewUrl": "assets/projects/clue-88453ce8e6.png",
+      "previewUrl": "assets/projects/clue-112a1fba1e.png",
       "language": "Python",
       "topics": [],
       "categories": [
@@ -363,15 +548,25 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2024-06-16T06:04:29Z",
-      "featured": false
+      "createdAt": "2024-04-03T11:13:10Z",
+      "size": 34821,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "Cluedo, the murder mystery board game known as Clue in North America."
+        },
+        "ja": {
+          "description": "殺人事件の犯人を推理するボードゲーム、クルード"
+        }
+      }
     },
     {
       "name": "homework9",
       "title": "homework9",
-      "description": "Week 9 homework",
+      "description": "9주차 과제",
       "repositoryUrl": "https://github.com/monitari/homework9",
       "demoUrl": null,
-      "previewUrl": "assets/projects/homework9-c03d3b9702.svg",
+      "previewUrl": "assets/projects/homework9-14df818ac8.svg",
       "language": "C",
       "topics": [],
       "categories": [
@@ -380,15 +575,25 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2024-06-01T14:29:45Z",
-      "featured": false
+      "createdAt": "2024-06-01T12:10:24Z",
+      "size": 22,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "Week 9 homework"
+        },
+        "ja": {
+          "description": "第9週の課題"
+        }
+      }
     },
     {
       "name": "homework8",
       "title": "homework8",
-      "description": "Week 8 homework (actually 12)",
+      "description": "8주차 과제 (사실은 12주차)",
       "repositoryUrl": "https://github.com/monitari/homework8",
       "demoUrl": null,
-      "previewUrl": "assets/projects/homework8-9bc649264c.svg",
+      "previewUrl": "assets/projects/homework8-e7231719b1.svg",
       "language": "C",
       "topics": [],
       "categories": [
@@ -397,15 +602,25 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2024-05-25T05:53:00Z",
-      "featured": false
+      "createdAt": "2024-05-22T12:49:03Z",
+      "size": 31,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "Week 8 homework (actually 12)"
+        },
+        "ja": {
+          "description": "第8週の課題 (実は第12週)"
+        }
+      }
     },
     {
       "name": "homework7",
       "title": "homework7",
-      "description": "Week 7 homework",
+      "description": "7주차 과제",
       "repositoryUrl": "https://github.com/monitari/homework7",
       "demoUrl": null,
-      "previewUrl": "assets/projects/homework7-15e2437219.svg",
+      "previewUrl": "assets/projects/homework7-10664a13f5.svg",
       "language": "C",
       "topics": [],
       "categories": [
@@ -414,15 +629,25 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2024-04-20T06:35:46Z",
-      "featured": false
+      "createdAt": "2024-04-19T04:05:24Z",
+      "size": 28,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "Week 7 homework"
+        },
+        "ja": {
+          "description": "第7週の課題"
+        }
+      }
     },
     {
       "name": "homework6",
       "title": "homework6",
-      "description": "Week 6 homework",
+      "description": "6주차 과제",
       "repositoryUrl": "https://github.com/monitari/homework6",
       "demoUrl": null,
-      "previewUrl": "assets/projects/homework6-3cea6ca34e.svg",
+      "previewUrl": "assets/projects/homework6-d1f0ce0a37.svg",
       "language": "C",
       "topics": [],
       "categories": [
@@ -431,15 +656,25 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2024-04-13T06:08:56Z",
-      "featured": false
+      "createdAt": "2024-04-12T03:57:06Z",
+      "size": 32,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "Week 6 homework"
+        },
+        "ja": {
+          "description": "第6週の課題"
+        }
+      }
     },
     {
       "name": "homework5",
       "title": "homework5",
-      "description": "Week 5 homework",
+      "description": "5주차 과제",
       "repositoryUrl": "https://github.com/monitari/homework5",
       "demoUrl": null,
-      "previewUrl": "assets/projects/homework5-9a58e8673b.svg",
+      "previewUrl": "assets/projects/homework5-a211862371.svg",
       "language": "C",
       "topics": [],
       "categories": [
@@ -448,15 +683,25 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2024-04-06T06:31:38Z",
-      "featured": false
+      "createdAt": "2024-04-06T06:15:33Z",
+      "size": 21,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "Week 5 homework"
+        },
+        "ja": {
+          "description": "第5週の課題"
+        }
+      }
     },
     {
       "name": "homework4",
       "title": "homework4",
-      "description": "Week 4 homework",
+      "description": "4주차 과제",
       "repositoryUrl": "https://github.com/monitari/homework4",
       "demoUrl": null,
-      "previewUrl": "assets/projects/homework4-7689157ba9.svg",
+      "previewUrl": "assets/projects/homework4-9b6ef825cd.svg",
       "language": "C",
       "topics": [],
       "categories": [
@@ -465,15 +710,25 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2024-03-29T12:36:21Z",
-      "featured": false
+      "createdAt": "2024-03-29T12:13:38Z",
+      "size": 27,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "Week 4 homework"
+        },
+        "ja": {
+          "description": "第4週の課題"
+        }
+      }
     },
     {
       "name": "homework3",
       "title": "homework3",
-      "description": "Week 3 homework ",
+      "description": "3주차 과제",
       "repositoryUrl": "https://github.com/monitari/homework3",
       "demoUrl": null,
-      "previewUrl": "assets/projects/homework3-df388851f8.svg",
+      "previewUrl": "assets/projects/homework3-9bdc42c488.svg",
       "language": "C",
       "topics": [],
       "categories": [
@@ -482,15 +737,25 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2024-03-23T05:23:22Z",
-      "featured": false
+      "createdAt": "2024-03-23T04:58:29Z",
+      "size": 37,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "Week 3 homework"
+        },
+        "ja": {
+          "description": "第3週の課題"
+        }
+      }
     },
     {
       "name": "homework2",
       "title": "homework2",
-      "description": "Week 2 homework ",
+      "description": "2주차 과제",
       "repositoryUrl": "https://github.com/monitari/homework2",
       "demoUrl": null,
-      "previewUrl": "assets/projects/homework2-95f593e1c4.svg",
+      "previewUrl": "assets/projects/homework2-0ca040301a.svg",
       "language": "C",
       "topics": [],
       "categories": [
@@ -499,15 +764,25 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2024-03-16T07:42:47Z",
-      "featured": false
+      "createdAt": "2024-03-16T07:20:31Z",
+      "size": 25,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "Week 2 homework"
+        },
+        "ja": {
+          "description": "第2週の課題"
+        }
+      }
     },
     {
       "name": "firstproject",
       "title": "firstproject",
-      "description": "my github first project",
+      "description": "GitHub 첫 프로젝트",
       "repositoryUrl": "https://github.com/monitari/firstproject",
       "demoUrl": null,
-      "previewUrl": "assets/projects/firstproject-608b5e281c.svg",
+      "previewUrl": "assets/projects/firstproject-adf54e6631.svg",
       "language": "HTML",
       "topics": [],
       "categories": [
@@ -516,7 +791,17 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2023-11-24T06:49:22Z",
-      "featured": false
+      "createdAt": "2023-11-24T06:23:11Z",
+      "size": 2,
+      "featured": false,
+      "translations": {
+        "en": {
+          "description": "My first GitHub project."
+        },
+        "ja": {
+          "description": "GitHubでの最初のプロジェクト"
+        }
+      }
     }
   ]
 }

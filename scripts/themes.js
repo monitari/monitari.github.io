@@ -1,3 +1,5 @@
+import { t } from './i18n.js';
+
 const root = document.documentElement;
 const toggle = document.querySelector('#theme-toggle');
 const themeColor = document.querySelector('meta[name="theme-color"]');
@@ -25,8 +27,8 @@ function applyTheme(theme, persist = false) {
 
     root.dataset.theme = isDark ? 'dark' : 'light';
     toggle.setAttribute('aria-pressed', String(isDark));
-    toggle.setAttribute('aria-label', isDark ? '라이트 모드로 전환' : '다크 모드로 전환');
-    themeColor?.setAttribute('content', isDark ? '#0b0a12' : '#eceaf6');
+    toggle.setAttribute('aria-label', t(isDark ? 'toLight' : 'toDark'));
+    themeColor?.setAttribute('content', isDark ? '#101216' : '#f2f4f6');
 
     if (persist) {
         saveTheme(isDark ? 'dark' : 'light');
@@ -44,4 +46,8 @@ colorPreference.addEventListener('change', (event) => {
     if (!getSavedTheme()) {
         applyTheme(event.matches ? 'dark' : 'light');
     }
+});
+
+document.addEventListener('localechange', () => {
+    applyTheme(root.dataset.theme);
 });

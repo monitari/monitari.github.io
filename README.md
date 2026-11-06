@@ -1,6 +1,6 @@
 # Monitari Portfolio
 
-monitari(`@monitari`)의 GitHub 프로젝트를 모아 둔 정적 포트폴리오. 위키 문서 레이아웃에 인스타그램식 그리드와 스토리 필터를 섞었고, 패널은 글래스모피즘으로 처리했다.
+monitari(`@monitari`)의 GitHub 프로젝트를 모아 둔 정적 포트폴리오. 나무위키의 문서 구조(분류, 목차, 번호 문단, 각주, 최근 변경)에 토스 디자인 시스템의 UI 문법(색상 토큰, 리스트 행, 바텀시트, 해요체 문구)을 입혔고, 글래스모피즘 애니메이션을 얹었다. 한국어, 영어, 일본어를 지원한다.
 
 ## 프로젝트 자동 동기화
 
@@ -12,7 +12,7 @@ monitari(`@monitari`)의 GitHub 프로젝트를 모아 둔 정적 포트폴리�
 
 워크플로는 GitHub가 자동으로 제공하는 `GITHUB_TOKEN`으로 공개 저장소를 읽고, [`data/projects.json`](data/projects.json)을 갱신한 뒤 변경이 있을 때만 커밋합니다. README에 적절한 이미지가 있으면 `assets/projects`에 로컬 미리보기로 저장하고, 이미지가 없으면 언어별 타이포그래피 SVG 커버를 자동 생성합니다. 방문자의 브라우저에서는 GitHub API나 이미지 서버를 직접 호출하지 않으므로 API 제한이나 토큰 노출 때문에 사이트가 멈추지 않습니다.
 
-새 공개 저장소는 별도 설정 없이 자동으로 그리드에 추가됩니다. 포트폴리오에서 제외할 저장소, 앞쪽에 고정할 저장소, 표시 이름, 설명, 분류, 데모 URL은 [`data/project-config.json`](data/project-config.json)에서 관리합니다.
+새 공개 저장소는 별도 설정 없이 자동으로 그리드에 추가됩니다. 포트폴리오에서 제외할 저장소, 앞쪽에 고정할 저장소, 표시 이름, 설명, 분류, 데모 URL, 언어별 번역(`translations`)은 [`data/project-config.json`](data/project-config.json)에서 관리합니다.
 
 로컬에서 프로젝트 데이터를 다시 만들려면 다음 명령을 실행합니다.
 
@@ -34,12 +34,13 @@ python -m http.server 8000
 
 ## 주요 구조
 
-- `index.html`: 위키 문서 본문, 정보 상자, 프로젝트 폴백, 상세 다이얼로그
-- `styles.css`: 글래스모피즘 반응형 UI, 라이트/다크 테마
-- `scripts/init.js`: 데이터 렌더링, 검색과 필터, 최근 변경, 언어 비율, 각주, 프로젝트 상세
+- `index.html`: 위키 문서 본문(한국어 원문), 정보 상자, 프로젝트 폴백, 바텀시트
+- `styles.css`: 반응형 UI, 글래스 효과와 애니메이션, 라이트/다크 테마
+- `scripts/init.js`: 데이터 렌더링, 검색과 필터, 정렬 15종, 최근 변경, 언어 비율, 각주, 바텀시트
+- `scripts/i18n.js`: 영어와 일본어 번역, 화면 문구, 언어 전환
 - `scripts/themes.js`: 테마 선택과 시스템 설정 연동
 - `scripts/sync-projects.mjs`: GitHub API 데이터를 정적 JSON으로 생성
-- `scripts/cover.mjs`: README 이미지가 없는 저장소의 커버 SVG 생성. 디자인을 바꾸면 `COVER_VERSION`을 올린다
+- `scripts/cover.mjs`: README 이미지가 없는 저장소의 커버 SVG 생성. 디자인을 바꾸면 `COVER_VERSION`을 올리고 push한다
 - `data/project-config.json`: 제외, 고정, 표시 정보 설정
 - `data/projects.json`: 자동 생성된 프로젝트 데이터
 
