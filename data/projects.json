@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T06:08:16.282Z",
+  "generatedAt": "2026-11-06T06:49:01.210Z",
   "profile": {
     "login": "monitari",
     "name": "monitari",
@@ -10,7 +10,7 @@
     "company": "Chungbuk National University",
     "followers": 1,
     "following": 2,
-    "publicRepositories": 32
+    "publicRepositories": 33
   },
   "projects": [
     {
@@ -119,6 +119,23 @@
       "forks": 0,
       "updatedAt": "2025-01-20T17:19:38Z",
       "featured": true
+    },
+    {
+      "name": "midelec-2026",
+      "title": "midelec-2026",
+      "description": "2026 미국 중간선거 지도 대시보드",
+      "repositoryUrl": "https://github.com/monitari/midelec-2026",
+      "demoUrl": null,
+      "previewUrl": "assets/projects/midelec-2026-585b422501.svg",
+      "language": "TypeScript",
+      "topics": [],
+      "categories": [
+        "web"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-11-05T11:48:19Z",
+      "featured": false
     },
     {
       "name": "overstack",
